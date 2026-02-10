@@ -1,10 +1,13 @@
 """Reporting utilities for comparing splits."""
+
 from __future__ import annotations
 
 from typing import Any, Dict
 
 
-def compare_summaries(train: Dict[str, Any], val: Dict[str, Any]) -> Dict[str, Any]:
+def compare_summaries(
+    train: Dict[str, Any], val: Dict[str, Any]
+) -> Dict[str, Any]:
     """Create a comparison report for train/val split summaries."""
     train_classes = train.get("classes", {})
     val_classes = val.get("classes", {})

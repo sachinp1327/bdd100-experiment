@@ -1,16 +1,16 @@
 """Core analysis logic for BDD100K detection labels."""
+
 from __future__ import annotations
 
 from dataclasses import dataclass
 from pathlib import Path
-from typing import Any, Dict, Iterable, List, Tuple
+from typing import Any, Dict, Tuple
 
 import numpy as np
 from PIL import Image
 
 from .stats import Histogram, OnlineStats, TopK
 from .streaming import iter_label_items
-
 
 AREA_BINS = [0.0] + np.logspace(-4, 0, 20).tolist()
 ASPECT_BINS = np.linspace(0, 5, 21).tolist() + [10.0]
@@ -41,6 +41,7 @@ class ClassAggregator:
         image_name: str,
         image_size: Tuple[int, int],
     ) -> None:
+        """Update class-level stats for a single box."""
         width, height = image_size
         box_w = max(float(box["x2"]) - float(box["x1"]), 0.0)
         box_h = max(float(box["y2"]) - float(box["y1"]), 0.0)
@@ -52,7 +53,10 @@ class ClassAggregator:
         self.aspect_stats.add(aspect)
         self.aspect_hist.add(aspect)
 
-        payload = {"image": image_name, "box": {k: float(v) for k, v in box.items()}}
+        payload = {
+            "image": image_name,
+            "box": {k: float(v) for k, v in box.items()},
+        }
         self.widest.add(aspect, payload)
         self.tallest.add(aspect, payload)
 
@@ -66,9 +70,11 @@ class ClassAggregator:
         self.smallest_area.add(area_norm, payload)
 
     def increment_image_count(self) -> None:
+        """Increment the number of images containing this class."""
         self.image_count += 1
 
     def to_dict(self) -> Dict[str, Any]:
+        """Serialize class-level stats to a dictionary."""
         return {
             "box_count": self.box_count,
             "image_count": self.image_count,
@@ -90,7 +96,10 @@ class ClassAggregator:
 class SplitAggregator:
     """Aggregate dataset-level stats for a single split."""
 
-    def __init__(self, split: str, top_k: int = 10, images_root: Path | None = None) -> None:
+    def __init__(
+        self, split: str, top_k: int = 10, images_root: Path | None = None
+    ) -> None:
+        """Initialize split-level aggregation state."""
         self.split = split
         self.image_count = 0
         self.images_with_boxes = 0
@@ -104,6 +113,7 @@ class SplitAggregator:
         self._size_cache: Dict[str, Tuple[int, int]] = {}
 
     def _get_image_size(self, image_name: str) -> Tuple[int, int]:
+        """Return image size from disk, cached per filename."""
         if image_name in self._size_cache:
             return self._size_cache[image_name]
         if self.images_root is None:
@@ -118,11 +128,13 @@ class SplitAggregator:
         return size
 
     def _get_class_agg(self, name: str) -> ClassAggregator:
+        """Return (and create if needed) a class aggregator."""
         if name not in self.class_aggs:
             self.class_aggs[name] = ClassAggregator(name)
         return self.class_aggs[name]
 
     def update(self, item: Dict[str, Any]) -> None:
+        """Update split-level stats from a single label item."""
         self.image_count += 1
         image_name = item.get("name", "unknown")
         width = int(item.get("width") or 0)
@@ -164,14 +176,22 @@ class SplitAggregator:
 
         if box_count > 0:
             payload = {"image": image_name, "count": box_count}
-            self.top_object_count_images.add(float(box_count), payload)
+            self.top_object_count_images.add(
+                float(box_count), payload
+            )
 
     def _update_object_hist(self, box_count: int) -> None:
+        """Update the objects-per-image histogram."""
         bucket = str(box_count) if box_count < 20 else "20+"
-        self.object_count_hist[bucket] = self.object_count_hist.get(bucket, 0) + 1
+        self.object_count_hist[bucket] = (
+            self.object_count_hist.get(bucket, 0) + 1
+        )
 
     def to_summary(self) -> Dict[str, Any]:
-        class_stats = {name: agg.to_dict() for name, agg in self.class_aggs.items()}
+        """Serialize split-level stats to a dictionary."""
+        class_stats = {
+            name: agg.to_dict() for name, agg in self.class_aggs.items()
+        }
 
         rare_combos = sorted(
             self.class_combo_counts.items(), key=lambda x: x[1]
@@ -207,7 +227,9 @@ def analyze_split(
 ) -> Dict[str, Any]:
     """Analyze a BDD100K split and return summary stats."""
     images_root_path = Path(images_root) if images_root else None
-    aggregator = SplitAggregator(split=split, top_k=15, images_root=images_root_path)
+    aggregator = SplitAggregator(
+        split=split, top_k=15, images_root=images_root_path
+    )
     for item in iter_label_items(labels_path):
         aggregator.update(item)
     return aggregator.to_summary()

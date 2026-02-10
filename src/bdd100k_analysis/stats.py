@@ -1,4 +1,5 @@
 """Streaming statistics and utility aggregators."""
+
 from __future__ import annotations
 
 from dataclasses import dataclass, field
@@ -18,6 +19,7 @@ class OnlineStats:
     max_value: float | None = None
 
     def add(self, value: float) -> None:
+        """Add a new observation."""
         self.count += 1
         if self.min_value is None or value < self.min_value:
             self.min_value = value
@@ -30,15 +32,18 @@ class OnlineStats:
 
     @property
     def variance(self) -> float:
+        """Return the sample variance."""
         if self.count < 2:
             return 0.0
         return self.m2 / (self.count - 1)
 
     @property
     def std(self) -> float:
-        return self.variance ** 0.5
+        """Return the sample standard deviation."""
+        return self.variance**0.5
 
     def to_dict(self) -> Dict[str, float]:
+        """Serialize stats to a dictionary."""
         return {
             "count": self.count,
             "mean": self.mean,
@@ -56,12 +61,14 @@ class Histogram:
     counts: List[int] = field(default_factory=list)
 
     def __post_init__(self) -> None:
+        """Initialize default bin counts."""
         if len(self.bins) < 2:
             raise ValueError("Histogram requires at least two bin edges")
         if not self.counts:
             self.counts = [0 for _ in range(len(self.bins) - 1)]
 
     def add(self, value: float) -> None:
+        """Add a value to the histogram."""
         idx = bisect.bisect_right(self.bins, value) - 1
         if idx < 0:
             idx = 0
@@ -70,6 +77,7 @@ class Histogram:
         self.counts[idx] += 1
 
     def to_dict(self) -> Dict[str, List[float]]:
+        """Serialize histogram bins and counts."""
         return {"bins": self.bins, "counts": self.counts}
 
 
@@ -77,12 +85,14 @@ class TopK:
     """Keep top-k elements by value."""
 
     def __init__(self, k: int, largest: bool = True) -> None:
+        """Initialize a TopK tracker."""
         self.k = k
         self.largest = largest
         self._heap: List[Tuple[float, int, Dict[str, Any]]] = []
         self._counter = 0
 
     def add(self, value: float, payload: Dict[str, Any]) -> None:
+        """Consider a value for inclusion in the top-k set."""
         key = value if self.largest else -value
         self._counter += 1
         entry = (key, self._counter, payload)
@@ -93,6 +103,7 @@ class TopK:
             heapq.heapreplace(self._heap, entry)
 
     def to_list(self) -> List[Dict[str, Any]]:
+        """Return top-k items sorted by score."""
         sorted_items = sorted(self._heap, key=lambda x: x[0], reverse=True)
         results = []
         for key, _counter, payload in sorted_items:

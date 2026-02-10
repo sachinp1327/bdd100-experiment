@@ -1,0 +1,9 @@
+[tool.black]
+line-length = 79
+target-version = ["py311"]
+
+[tool.ruff]
+line-length = 79
+
+[tool.pycodestyle]
+max-line-length = 79

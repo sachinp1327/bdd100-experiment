@@ -1,4 +1,5 @@
 """Streaming IO helpers for large BDD100K label files."""
+
 from __future__ import annotations
 
 from pathlib import Path
