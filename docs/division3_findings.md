@@ -94,67 +94,48 @@ The diagnostics produce overlays with:
 - **GT boxes** (green)
 - **Pred boxes** (red)
 
-Below are representative best/worst examples embedded directly from the renders.
+Below are representative best/worst examples. Use the paths to open the
+rendered images on disk.
 
 Best vs worst (bike):
-
-| Best | Worst |
-| --- | --- |
-| ![bike-best](<outputs/eval_diagnostics/renders/bike/best/ca1543ec-6ad48f6e.jpg>) | ![bike-worst](<outputs/eval_diagnostics/renders/bike/worst/b1d0a191-5490450b.jpg>) |
+- Best: `outputs/eval_diagnostics/renders/bike/best/ca1543ec-6ad48f6e.jpg`
+- Worst: `outputs/eval_diagnostics/renders/bike/worst/b1d0a191-5490450b.jpg`
 
 Best vs worst (bus):
-
-| Best | Worst |
-| --- | --- |
-| ![bus-best](<outputs/eval_diagnostics/renders/bus/best/ca513280-e4ec496c.jpg>) | ![bus-worst](<outputs/eval_diagnostics/renders/bus/worst/b1d10d08-c35503b8.jpg>) |
+- Best: `outputs/eval_diagnostics/renders/bus/best/ca513280-e4ec496c.jpg`
+- Worst: `outputs/eval_diagnostics/renders/bus/worst/b1d10d08-c35503b8.jpg`
 
 Best vs worst (car):
-
-| Best | Worst |
-| --- | --- |
-| ![car-best](<outputs/eval_diagnostics/renders/car/best/ca679a1e-cee7f0bc.jpg>) | ![car-worst](<outputs/eval_diagnostics/renders/car/worst/b291cfd6-a46efbcc.jpg>) |
+- Best: `outputs/eval_diagnostics/renders/car/best/ca679a1e-cee7f0bc.jpg`
+- Worst: `outputs/eval_diagnostics/renders/car/worst/b291cfd6-a46efbcc.jpg`
 
 Best vs worst (motor):
-
-| Best | Worst |
-| --- | --- |
-| ![motor-best](<outputs/eval_diagnostics/renders/motor/best/fe1d9184-d144106a.jpg>) | ![motor-worst](<outputs/eval_diagnostics/renders/motor/worst/b1c66a42-6f7d68ca.jpg>) |
+- Best: `outputs/eval_diagnostics/renders/motor/best/fe1d9184-d144106a.jpg`
+- Worst: `outputs/eval_diagnostics/renders/motor/worst/b1c66a42-6f7d68ca.jpg`
 
 Best vs worst (person):
-
-| Best | Worst |
-| --- | --- |
-| ![person-best](<outputs/eval_diagnostics/renders/person/best/ca3bbb0a-b711f4e3.jpg>) | ![person-worst](<outputs/eval_diagnostics/renders/person/worst/b1d0a191-5490450b.jpg>) |
+- Best: `outputs/eval_diagnostics/renders/person/best/ca3bbb0a-b711f4e3.jpg`
+- Worst: `outputs/eval_diagnostics/renders/person/worst/b1d0a191-5490450b.jpg`
 
 Best vs worst (rider):
-
-| Best | Worst |
-| --- | --- |
-| ![rider-best](<outputs/eval_diagnostics/renders/rider/best/fe1d9184-d144106a.jpg>) | ![rider-worst](<outputs/eval_diagnostics/renders/rider/worst/b1d0a191-5490450b.jpg>) |
+- Best: `outputs/eval_diagnostics/renders/rider/best/fe1d9184-d144106a.jpg`
+- Worst: `outputs/eval_diagnostics/renders/rider/worst/b1d0a191-5490450b.jpg`
 
 Best vs worst (traffic light):
-
-| Best | Worst |
-| --- | --- |
-| ![traffic light-best](<outputs/eval_diagnostics/renders/traffic light/best/c9f6b520-523674ac.jpg>) | ![traffic light-worst](<outputs/eval_diagnostics/renders/traffic light/worst/b1ceb32e-a106591d.jpg>) |
+- Best: `outputs/eval_diagnostics/renders/traffic light/best/c9f6b520-523674ac.jpg`
+- Worst: `outputs/eval_diagnostics/renders/traffic light/worst/b1ceb32e-a106591d.jpg`
 
 Best vs worst (traffic sign):
-
-| Best | Worst |
-| --- | --- |
-| ![traffic sign-best](<outputs/eval_diagnostics/renders/traffic sign/best/c95f4860-c6c0856d.jpg>) | ![traffic sign-worst](<outputs/eval_diagnostics/renders/traffic sign/worst/b1d0a191-de8948f6.jpg>) |
+- Best: `outputs/eval_diagnostics/renders/traffic sign/best/c95f4860-c6c0856d.jpg`
+- Worst: `outputs/eval_diagnostics/renders/traffic sign/worst/b1d0a191-de8948f6.jpg`
 
 Best vs worst (train):
-
-| Best | Worst |
-| --- | --- |
-| ![train-best](<outputs/eval_diagnostics/renders/train/best/c9f5283d-5ef0a1b2.jpg>) | ![train-worst](<outputs/eval_diagnostics/renders/train/worst/b24bdca1-e4f0c558.jpg>) |
+- Best: `outputs/eval_diagnostics/renders/train/best/c9f5283d-5ef0a1b2.jpg`
+- Worst: `outputs/eval_diagnostics/renders/train/worst/b24bdca1-e4f0c558.jpg`
 
 Best vs worst (truck):
-
-| Best | Worst |
-| --- | --- |
-| ![truck-best](<outputs/eval_diagnostics/renders/truck/best/fe1f55fa-19ba3600.jpg>) | ![truck-worst](<outputs/eval_diagnostics/renders/truck/worst/b1d0a191-2ed2269e.jpg>) |
+- Best: `outputs/eval_diagnostics/renders/truck/best/fe1f55fa-19ba3600.jpg`
+- Worst: `outputs/eval_diagnostics/renders/truck/worst/b1d0a191-2ed2269e.jpg`
 
 These examples show:
 - **True positives** in cleaner scenes.
