@@ -7,6 +7,12 @@ This repository is organized into **three divisions**:
 
 Each division has its own CLI and (where applicable) Streamlit dashboard.
 
+**Documentation & Findings**
+- Detailed assignment discussion and findings are in `docs/`:
+  - `docs/division1_findings.md`
+  - `docs/division2_findings.md`
+  - `docs/division3_findings.md`
+
 ---
 
 **Docker Build & Run (Do This First)**
