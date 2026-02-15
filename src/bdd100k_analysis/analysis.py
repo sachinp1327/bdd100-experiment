@@ -14,6 +14,10 @@ from .streaming import iter_label_items
 
 AREA_BINS = [0.0] + np.logspace(-4, 0, 20).tolist()
 ASPECT_BINS = np.linspace(0, 5, 21).tolist() + [10.0]
+SMALL_AREA_PX = 32 * 32
+MEDIUM_AREA_PX = 96 * 96
+NEAR_RATIO = 0.3
+MID_RATIO = 0.1
 
 
 @dataclass
@@ -34,12 +38,27 @@ class ClassAggregator:
         self.smallest_area = TopK(self.top_k, largest=False)
         self.widest = TopK(self.top_k, largest=True)
         self.tallest = TopK(self.top_k, largest=False)
+        self.occluded_count = 0
+        self.truncated_count = 0
+        self.size_buckets: Dict[str, int] = {
+            "small": 0,
+            "medium": 0,
+            "large": 0,
+            "unknown": 0,
+        }
+        self.distance_buckets: Dict[str, int] = {
+            "far": 0,
+            "mid": 0,
+            "near": 0,
+            "unknown": 0,
+        }
 
     def add_box(
         self,
         box: Dict[str, float],
         image_name: str,
         image_size: Tuple[int, int],
+        attributes: Dict[str, Any] | None = None,
     ) -> None:
         """Update class-level stats for a single box."""
         width, height = image_size
@@ -49,6 +68,11 @@ class ClassAggregator:
             return
 
         self.box_count += 1
+        if attributes:
+            if attributes.get("occluded") is True:
+                self.occluded_count += 1
+            if attributes.get("truncated") is True:
+                self.truncated_count += 1
         aspect = box_w / box_h
         self.aspect_stats.add(aspect)
         self.aspect_hist.add(aspect)
@@ -61,7 +85,27 @@ class ClassAggregator:
         self.tallest.add(aspect, payload)
 
         if width <= 0 or height <= 0:
+            self.size_buckets["unknown"] += 1
+            self.distance_buckets["unknown"] += 1
             return
+
+        area_px = box_w * box_h
+        if area_px < SMALL_AREA_PX:
+            self.size_buckets["small"] += 1
+        elif area_px < MEDIUM_AREA_PX:
+            self.size_buckets["medium"] += 1
+        else:
+            self.size_buckets["large"] += 1
+
+        height_ratio = box_h / height if height > 0 else 0.0
+        if height_ratio <= 0:
+            self.distance_buckets["unknown"] += 1
+        elif height_ratio < MID_RATIO:
+            self.distance_buckets["far"] += 1
+        elif height_ratio < NEAR_RATIO:
+            self.distance_buckets["mid"] += 1
+        else:
+            self.distance_buckets["near"] += 1
 
         area_norm = (box_w * box_h) / (width * height)
         self.area_stats.add(area_norm)
@@ -75,9 +119,27 @@ class ClassAggregator:
 
     def to_dict(self) -> Dict[str, Any]:
         """Serialize class-level stats to a dictionary."""
+        occluded_pct = (
+            self.occluded_count / self.box_count
+            if self.box_count
+            else 0.0
+        )
+        truncated_pct = (
+            self.truncated_count / self.box_count
+            if self.box_count
+            else 0.0
+        )
         return {
             "box_count": self.box_count,
             "image_count": self.image_count,
+            "occlusion": {
+                "occluded": self.occluded_count,
+                "truncated": self.truncated_count,
+                "occluded_pct": occluded_pct,
+                "truncated_pct": truncated_pct,
+            },
+            "size_buckets": self.size_buckets,
+            "distance_buckets": self.distance_buckets,
             "area": {
                 **self.area_stats.to_dict(),
                 "hist": self.area_hist.to_dict(),
@@ -111,6 +173,26 @@ class SplitAggregator:
         self.top_object_count_images = TopK(top_k, largest=True)
         self.images_root = images_root
         self._size_cache: Dict[str, Tuple[int, int]] = {}
+        self.occluded_count = 0
+        self.truncated_count = 0
+        self.size_buckets: Dict[str, int] = {
+            "small": 0,
+            "medium": 0,
+            "large": 0,
+            "unknown": 0,
+        }
+        self.distance_buckets: Dict[str, int] = {
+            "far": 0,
+            "mid": 0,
+            "near": 0,
+            "unknown": 0,
+        }
+        self.clutter_levels: Dict[str, int] = {
+            "empty": 0,
+            "low": 0,
+            "medium": 0,
+            "high": 0,
+        }
 
     def _get_image_size(self, image_name: str) -> Tuple[int, int]:
         """Return image size from disk, cached per filename."""
@@ -153,13 +235,55 @@ class SplitAggregator:
             if not category:
                 continue
             box = label["box2d"]
+            attributes = label.get("attributes") or {}
             class_agg = self._get_class_agg(category)
-            class_agg.add_box(box, image_name, (width, height))
+            class_agg.add_box(box, image_name, (width, height), attributes)
             classes_in_image.add(category)
             box_count += 1
+            if attributes.get("occluded") is True:
+                self.occluded_count += 1
+            if attributes.get("truncated") is True:
+                self.truncated_count += 1
+
+            if width > 0 and height > 0:
+                area_px = (
+                    max(float(box["x2"]) - float(box["x1"]), 0.0)
+                    * max(float(box["y2"]) - float(box["y1"]), 0.0)
+                )
+                if area_px < SMALL_AREA_PX:
+                    self.size_buckets["small"] += 1
+                elif area_px < MEDIUM_AREA_PX:
+                    self.size_buckets["medium"] += 1
+                else:
+                    self.size_buckets["large"] += 1
+
+                height_ratio = (
+                    max(float(box["y2"]) - float(box["y1"]), 0.0) / height
+                    if height > 0
+                    else 0.0
+                )
+                if height_ratio <= 0:
+                    self.distance_buckets["unknown"] += 1
+                elif height_ratio < MID_RATIO:
+                    self.distance_buckets["far"] += 1
+                elif height_ratio < NEAR_RATIO:
+                    self.distance_buckets["mid"] += 1
+                else:
+                    self.distance_buckets["near"] += 1
+            else:
+                self.size_buckets["unknown"] += 1
+                self.distance_buckets["unknown"] += 1
 
         if box_count > 0:
             self.images_with_boxes += 1
+            if box_count <= 3:
+                self.clutter_levels["low"] += 1
+            elif box_count <= 7:
+                self.clutter_levels["medium"] += 1
+            else:
+                self.clutter_levels["high"] += 1
+        else:
+            self.clutter_levels["empty"] += 1
         self.total_boxes += box_count
         self._update_object_hist(box_count)
 
@@ -205,11 +329,31 @@ class SplitAggregator:
             for combo, count in rare_combos
         ]
 
+        occluded_pct = (
+            self.occluded_count / self.total_boxes
+            if self.total_boxes
+            else 0.0
+        )
+        truncated_pct = (
+            self.truncated_count / self.total_boxes
+            if self.total_boxes
+            else 0.0
+        )
+
         return {
             "split": self.split,
             "image_count": self.image_count,
             "images_with_boxes": self.images_with_boxes,
             "total_boxes": self.total_boxes,
+            "occlusion": {
+                "occluded": self.occluded_count,
+                "truncated": self.truncated_count,
+                "occluded_pct": occluded_pct,
+                "truncated_pct": truncated_pct,
+            },
+            "size_buckets": self.size_buckets,
+            "distance_buckets": self.distance_buckets,
+            "clutter_levels": self.clutter_levels,
             "classes": class_stats,
             "object_count_hist": self.object_count_hist,
             "class_combo_counts": self.class_combo_counts,

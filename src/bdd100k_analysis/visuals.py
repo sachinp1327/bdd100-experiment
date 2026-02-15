@@ -76,6 +76,10 @@ def render_extreme_samples(
             if not image_path.exists():
                 continue
             group = sample.get("group", "sample")
+            if group == "smallest":
+                group = "small"
+            elif group == "largest":
+                group = "large"
             label = f"{class_name} {group}"
             output_path = output_dir / class_name / f"{group}_{image_name}"
             draw_box_sample(

@@ -52,6 +52,18 @@ def _object_count_hist(summary: Dict[str, Any]) -> pd.DataFrame:
     return pd.DataFrame(rows).sort_values("bucket")
 
 
+def _bucket_frame(
+    buckets: Dict[str, int], label: str
+) -> pd.DataFrame:
+    """Convert bucket counts into a DataFrame with percentages."""
+    total = sum(buckets.values())
+    rows = []
+    for name, count in buckets.items():
+        pct = (count / total) * 100 if total else 0.0
+        rows.append({label: name, "count": count, "pct": pct})
+    return pd.DataFrame(rows)
+
+
 def _render_summary(summary: Dict[str, Any], title: str) -> None:
     """Render summary charts and tables for a split."""
     st.subheader(title)
@@ -73,6 +85,42 @@ def _render_summary(summary: Dict[str, Any], title: str) -> None:
         fig = px.bar(hist_df, x="bucket", y="count", title="Objects per Image")
         st.plotly_chart(fig, use_container_width=True)
 
+    clutter = summary.get("clutter_levels", {})
+    if clutter:
+        clutter_df = _bucket_frame(clutter, "level")
+        fig = px.bar(
+            clutter_df, x="level", y="count", title="Clutter Levels"
+        )
+        st.plotly_chart(fig, use_container_width=True)
+
+    size_buckets = summary.get("size_buckets", {})
+    if size_buckets:
+        size_df = _bucket_frame(size_buckets, "size")
+        fig = px.bar(
+            size_df, x="size", y="pct", title="Object Size Share (%)"
+        )
+        st.plotly_chart(fig, use_container_width=True)
+
+    distance_buckets = summary.get("distance_buckets", {})
+    if distance_buckets:
+        distance_df = _bucket_frame(distance_buckets, "distance")
+        fig = px.bar(
+            distance_df,
+            x="distance",
+            y="pct",
+            title="Distance Proxy (Box Height %)",
+        )
+        st.plotly_chart(fig, use_container_width=True)
+
+    occlusion = summary.get("occlusion", {})
+    if occlusion:
+        st.write(
+            {
+                "occluded_pct": occlusion.get("occluded_pct", 0.0),
+                "truncated_pct": occlusion.get("truncated_pct", 0.0),
+            }
+        )
+
     class_names = sorted(summary.get("classes", {}).keys())
     if class_names:
         selected = st.selectbox(
@@ -87,6 +135,34 @@ def _render_summary(summary: Dict[str, Any], title: str) -> None:
                 "aspect_mean": class_stats.get("aspect", {}).get("mean"),
             }
         )
+        class_occ = class_stats.get("occlusion", {})
+        if class_occ:
+            st.write(
+                {
+                    "occluded_pct": class_occ.get("occluded_pct", 0.0),
+                    "truncated_pct": class_occ.get("truncated_pct", 0.0),
+                }
+            )
+        class_size = class_stats.get("size_buckets", {})
+        if class_size:
+            class_size_df = _bucket_frame(class_size, "size")
+            fig = px.bar(
+                class_size_df,
+                x="size",
+                y="pct",
+                title="Class Size Share (%)",
+            )
+            st.plotly_chart(fig, use_container_width=True)
+        class_distance = class_stats.get("distance_buckets", {})
+        if class_distance:
+            class_distance_df = _bucket_frame(class_distance, "distance")
+            fig = px.bar(
+                class_distance_df,
+                x="distance",
+                y="pct",
+                title="Class Distance Proxy (%)",
+            )
+            st.plotly_chart(fig, use_container_width=True)
         area_df = _hist_to_frame(class_stats.get("area", {}).get("hist", {}))
         if not area_df.empty:
             st.plotly_chart(
