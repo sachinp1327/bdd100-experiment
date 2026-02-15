@@ -9,6 +9,42 @@ Each division has its own CLI and (where applicable) Streamlit dashboard.
 
 ---
 
+**Docker Build & Run (Do This First)**
+
+This project is designed to run inside a CUDA‑enabled Docker container.
+
+**My setup (for reference)**
+- GPU: **NVIDIA RTX 2000 Ada**, **8 GB VRAM**
+- Docker base image: **CUDA 11.8 + cuDNN 8** (`nvidia/cuda:11.8.0-cudnn8-runtime-ubuntu20.04`)
+- PyTorch / Torchvision (from `requirements.txt`):
+  - `torch==2.0.0+cu118`
+  - `torchvision==0.15.0+cu118`
+- NVIDIA driver is provided by the **host** (not by the Dockerfile). It must be
+  compatible with CUDA 11.8 inside the container.
+
+**1) Build the Docker image**
+```bash
+./docker-build.sh bdd100k-od:latest
+```
+or
+```bash
+docker build -t bdd100k-od:latest .
+```
+
+**2) Run the container (with GPU)**
+```bash
+./docker-setup.sh bdd100k-od:latest bdd100k-od-dev
+```
+
+The script:
+- mounts the repo into `/workspace`
+- exposes Streamlit on port `8501`
+- enables GPU via `--gpus all`
+
+Once inside the container, run the commands in the next sections.
+
+---
+
 **Division 1: Data Analysis**
 
 This division analyzes the BDD100K detection labels, computes dataset statistics, and produces an analysis dashboard with visuals.
@@ -130,4 +166,3 @@ streamlit run src/bdd100k_evaluation/dashboard_app.py -- \
 **Notes**
 - If you want more best/worst samples, re‑run diagnostics with `--top-k N`.
 - The dashboard lets you choose how many of the stored samples to display.
-
