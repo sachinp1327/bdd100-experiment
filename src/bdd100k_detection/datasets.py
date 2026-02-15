@@ -20,6 +20,7 @@ class CocoDetectionDataset(torch.utils.data.Dataset):
         annotation_file: Path,
         transforms: Compose | None = None,
     ) -> None:
+        """Initialize the COCO detection dataset wrapper."""
         self.images_root = images_root
         self.coco = COCO(str(annotation_file))
         self.image_ids = sorted(self.coco.imgs.keys())

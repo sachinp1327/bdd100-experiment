@@ -26,6 +26,7 @@ class CocoWriter:
     def __init__(
         self, output_path: Path, categories: List[CocoCategory]
     ) -> None:
+        """Initialize a COCO JSONL writer for images and annotations."""
         self.output_path = output_path
         self.categories = categories
         self.images_path = output_path.with_suffix(".images.jsonl")

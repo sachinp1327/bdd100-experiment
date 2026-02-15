@@ -21,6 +21,7 @@ class DetectionPipeline:
     """Orchestrates dataset conversion, training, and evaluation."""
 
     def __init__(self, config: PipelineConfig) -> None:
+        """Initialize the pipeline with a configuration."""
         self.config = config
 
     def run(self) -> Dict[str, float]:

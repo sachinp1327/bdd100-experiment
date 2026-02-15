@@ -158,6 +158,7 @@ def _compute_coco_metrics(
     det_index = max_dets.index(100) if 100 in max_dets else -1
 
     def _mean(arr: np.ndarray) -> float:
+        """Compute mean over valid entries (> -1) in COCO arrays."""
         valid = arr[arr > -1]
         return float(valid.mean()) if valid.size else 0.0
 
@@ -182,6 +183,7 @@ class EvaluationDiagnostics:
     """Generate evaluation diagnostics and artifacts for a predictions file."""
 
     def __init__(self, config: DiagnosticsConfig) -> None:
+        """Initialize diagnostics with configuration and output paths."""
         self.config = config
         self.output_dir = config.output_dir
         self.output_dir.mkdir(parents=True, exist_ok=True)
@@ -386,6 +388,7 @@ class EvaluationDiagnostics:
             best = sorted_samples[-self.config.top_k :][::-1]
 
             def _render(items: List[Dict[str, Any]], tag: str) -> List[Dict[str, Any]]:
+                """Render sample images for a class and tag."""
                 rendered_items = []
                 for item in items:
                     image_id = item["image_id"]

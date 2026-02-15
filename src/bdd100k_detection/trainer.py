@@ -42,6 +42,7 @@ class Trainer:
         evaluator: Optional[Evaluator] = None,
         val_loader: Optional[DataLoader] = None,
     ) -> None:
+        """Initialize a trainer instance for a detection model."""
         self.model = model
         self.train_loader = train_loader
         self.optimizer = optimizer

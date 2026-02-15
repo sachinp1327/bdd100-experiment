@@ -28,6 +28,7 @@ class ClassAggregator:
     top_k: int = 10
 
     def __post_init__(self) -> None:
+        """Initialize runtime aggregators for class statistics."""
         self.box_count = 0
         self.image_count = 0
         self.area_stats = OnlineStats()

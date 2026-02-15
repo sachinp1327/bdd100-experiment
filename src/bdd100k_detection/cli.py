@@ -205,6 +205,7 @@ def cmd_eval(args: argparse.Namespace) -> None:
 
 
 def build_parser() -> argparse.ArgumentParser:
+    """Build the CLI argument parser."""
     parser = argparse.ArgumentParser(
         description="BDD100K detection training pipeline"
     )

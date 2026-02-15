@@ -11,6 +11,7 @@ class Compose:
     """Compose multiple transforms for detection tasks."""
 
     def __init__(self, transforms: Tuple[Callable, ...]) -> None:
+        """Create a composed transform."""
         self.transforms = transforms
 
     def __call__(self, image, target):
@@ -33,6 +34,7 @@ class RandomHorizontalFlip:
     """Randomly flip the image and boxes horizontally."""
 
     def __init__(self, prob: float = 0.5) -> None:
+        """Create a random horizontal flip transform."""
         self.prob = prob
 
     def __call__(self, image, target: Dict):

@@ -34,6 +34,7 @@ class Evaluator:
         iou_type: str = "bbox",
         save_predictions: bool = True,
     ) -> None:
+        """Initialize the evaluator with dataset and output settings."""
         self.coco_gt = coco_gt
         self.output_dir = output_dir
         self.split = split
