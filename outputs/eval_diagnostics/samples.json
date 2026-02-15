@@ -1,0 +1,6270 @@
+{
+  "car": {
+    "best": [
+      {
+        "image_id": 9981,
+        "file_name": "ca679a1e-cee7f0bc.jpg",
+        "tp": 2,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "dawn/dusk",
+          "weather": "clear",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/car/best/ca679a1e-cee7f0bc.jpg"
+      },
+      {
+        "image_id": 8658,
+        "file_name": "c730a403-03ecee1b.jpg",
+        "tp": 3,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "undefined",
+          "scene": "highway"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/car/best/c730a403-03ecee1b.jpg"
+      },
+      {
+        "image_id": 7460,
+        "file_name": "c45e3dc0-3517e269.jpg",
+        "tp": 5,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "undefined",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/car/best/c45e3dc0-3517e269.jpg"
+      },
+      {
+        "image_id": 7239,
+        "file_name": "c3c43f15-1afc9745.jpg",
+        "tp": 5,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "night",
+          "weather": "clear",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/car/best/c3c43f15-1afc9745.jpg"
+      },
+      {
+        "image_id": 5926,
+        "file_name": "c0be0e03-063c7cf7.jpg",
+        "tp": 2,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "undefined",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/car/best/c0be0e03-063c7cf7.jpg"
+      },
+      {
+        "image_id": 5555,
+        "file_name": "bfd64d5f-172c9bb5.jpg",
+        "tp": 2,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "overcast",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/car/best/bfd64d5f-172c9bb5.jpg"
+      },
+      {
+        "image_id": 3118,
+        "file_name": "b9af5d7a-58dc5c98.jpg",
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "night",
+          "weather": "clear",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/car/best/b9af5d7a-58dc5c98.jpg"
+      },
+      {
+        "image_id": 2805,
+        "file_name": "b8c0d4a5-63b97dfb.jpg",
+        "tp": 2,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "undefined",
+          "scene": "residential"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/car/best/b8c0d4a5-63b97dfb.jpg"
+      },
+      {
+        "image_id": 2576,
+        "file_name": "b81c68cc-cdcfdff5.jpg",
+        "tp": 3,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "night",
+          "weather": "clear",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/car/best/b81c68cc-cdcfdff5.jpg"
+      },
+      {
+        "image_id": 2535,
+        "file_name": "b7fd3f86-3536dfed.jpg",
+        "tp": 2,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "undefined",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/car/best/b7fd3f86-3536dfed.jpg"
+      },
+      {
+        "image_id": 2079,
+        "file_name": "b6e602b3-50bfb157.jpg",
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "undefined",
+          "scene": "residential"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/car/best/b6e602b3-50bfb157.jpg"
+      },
+      {
+        "image_id": 1715,
+        "file_name": "b5f7a789-10124031.jpg",
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "night",
+          "weather": "clear",
+          "scene": "residential"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/car/best/b5f7a789-10124031.jpg"
+      },
+      {
+        "image_id": 1215,
+        "file_name": "b4c86653-d9ba99f4.jpg",
+        "tp": 2,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "undefined",
+          "scene": "residential"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/car/best/b4c86653-d9ba99f4.jpg"
+      },
+      {
+        "image_id": 1213,
+        "file_name": "b4c86653-a5abaf4e.jpg",
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "night",
+          "weather": "clear",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/car/best/b4c86653-a5abaf4e.jpg"
+      },
+      {
+        "image_id": 992,
+        "file_name": "b44ee0ec-a0786e4c.jpg",
+        "tp": 2,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "clear",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/car/best/b44ee0ec-a0786e4c.jpg"
+      },
+      {
+        "image_id": 9157,
+        "file_name": "c86f5924-83259ed3.jpg",
+        "tp": 8,
+        "fp": 1,
+        "fn": 0,
+        "precision": 0.8888888888888888,
+        "recall": 1.0,
+        "f1": 0.9411764705882353,
+        "attributes": {
+          "timeofday": "night",
+          "weather": "undefined",
+          "scene": "residential"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/car/best/c86f5924-83259ed3.jpg"
+      },
+      {
+        "image_id": 8918,
+        "file_name": "c7cb4a74-ec912bd8.jpg",
+        "tp": 8,
+        "fp": 1,
+        "fn": 0,
+        "precision": 0.8888888888888888,
+        "recall": 1.0,
+        "f1": 0.9411764705882353,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "clear",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/car/best/c7cb4a74-ec912bd8.jpg"
+      },
+      {
+        "image_id": 4861,
+        "file_name": "be2ad3df-225b267d.jpg",
+        "tp": 8,
+        "fp": 1,
+        "fn": 0,
+        "precision": 0.8888888888888888,
+        "recall": 1.0,
+        "f1": 0.9411764705882353,
+        "attributes": {
+          "timeofday": "dawn/dusk",
+          "weather": "snowy",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/car/best/be2ad3df-225b267d.jpg"
+      },
+      {
+        "image_id": 7716,
+        "file_name": "c503f2e8-55cc08bf.jpg",
+        "tp": 6,
+        "fp": 1,
+        "fn": 0,
+        "precision": 0.8571428571428571,
+        "recall": 1.0,
+        "f1": 0.923076923076923,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "clear",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/car/best/c503f2e8-55cc08bf.jpg"
+      },
+      {
+        "image_id": 3536,
+        "file_name": "bae5dc33-65cbc3f4.jpg",
+        "tp": 6,
+        "fp": 1,
+        "fn": 0,
+        "precision": 0.8571428571428571,
+        "recall": 1.0,
+        "f1": 0.923076923076923,
+        "attributes": {
+          "timeofday": "undefined",
+          "weather": "undefined",
+          "scene": "parking lot"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/car/best/bae5dc33-65cbc3f4.jpg"
+      }
+    ],
+    "worst": [
+      {
+        "image_id": 362,
+        "file_name": "b291cfd6-a46efbcc.jpg",
+        "tp": 0,
+        "fp": 0,
+        "fn": 2,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "undefined",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/car/worst/b291cfd6-a46efbcc.jpg"
+      },
+      {
+        "image_id": 942,
+        "file_name": "b4278d1f-3a128041.jpg",
+        "tp": 0,
+        "fp": 1,
+        "fn": 2,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "undefined",
+          "scene": "highway"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/car/worst/b4278d1f-3a128041.jpg"
+      },
+      {
+        "image_id": 1101,
+        "file_name": "b48f3f71-eec18320.jpg",
+        "tp": 0,
+        "fp": 20,
+        "fn": 2,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "night",
+          "weather": "rainy",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/car/worst/b48f3f71-eec18320.jpg"
+      },
+      {
+        "image_id": 1619,
+        "file_name": "b5b78553-f3a480a1.jpg",
+        "tp": 0,
+        "fp": 40,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "night",
+          "weather": "clear",
+          "scene": "highway"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/car/worst/b5b78553-f3a480a1.jpg"
+      },
+      {
+        "image_id": 2153,
+        "file_name": "b71d7574-2af6ba2d.jpg",
+        "tp": 0,
+        "fp": 19,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "overcast",
+          "scene": "highway"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/car/worst/b71d7574-2af6ba2d.jpg"
+      },
+      {
+        "image_id": 2889,
+        "file_name": "b9087534-f5d49005.jpg",
+        "tp": 0,
+        "fp": 5,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "night",
+          "weather": "clear",
+          "scene": "highway"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/car/worst/b9087534-f5d49005.jpg"
+      },
+      {
+        "image_id": 3239,
+        "file_name": "ba08174b-15c134f7.jpg",
+        "tp": 0,
+        "fp": 14,
+        "fn": 2,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "overcast",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/car/worst/ba08174b-15c134f7.jpg"
+      },
+      {
+        "image_id": 3839,
+        "file_name": "bba45236-0fffd225.jpg",
+        "tp": 0,
+        "fp": 17,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "night",
+          "weather": "clear",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/car/worst/bba45236-0fffd225.jpg"
+      },
+      {
+        "image_id": 4344,
+        "file_name": "bcde71de-211d8a7d.jpg",
+        "tp": 0,
+        "fp": 2,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "clear",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/car/worst/bcde71de-211d8a7d.jpg"
+      },
+      {
+        "image_id": 4995,
+        "file_name": "be6ed1f7-853489ce.jpg",
+        "tp": 0,
+        "fp": 23,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "night",
+          "weather": "clear",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/car/worst/be6ed1f7-853489ce.jpg"
+      },
+      {
+        "image_id": 5083,
+        "file_name": "bea74140-801c009e.jpg",
+        "tp": 0,
+        "fp": 21,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "clear",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/car/worst/bea74140-801c009e.jpg"
+      },
+      {
+        "image_id": 5227,
+        "file_name": "befd675c-ead3969d.jpg",
+        "tp": 0,
+        "fp": 30,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "clear",
+          "scene": "highway"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/car/worst/befd675c-ead3969d.jpg"
+      },
+      {
+        "image_id": 6224,
+        "file_name": "c15c29a5-5be4dad3.jpg",
+        "tp": 0,
+        "fp": 3,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "night",
+          "weather": "clear",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/car/worst/c15c29a5-5be4dad3.jpg"
+      },
+      {
+        "image_id": 6756,
+        "file_name": "c29e8060-71ad061c.jpg",
+        "tp": 0,
+        "fp": 27,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "night",
+          "weather": "clear",
+          "scene": "highway"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/car/worst/c29e8060-71ad061c.jpg"
+      },
+      {
+        "image_id": 7659,
+        "file_name": "c4e2eba0-02c66276.jpg",
+        "tp": 0,
+        "fp": 20,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "undefined",
+          "scene": "highway"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/car/worst/c4e2eba0-02c66276.jpg"
+      },
+      {
+        "image_id": 9123,
+        "file_name": "c8573105-a4addeb6.jpg",
+        "tp": 0,
+        "fp": 8,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "undefined",
+          "scene": "residential"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/car/worst/c8573105-a4addeb6.jpg"
+      },
+      {
+        "image_id": 9031,
+        "file_name": "c81ff2c0-6243618f.jpg",
+        "tp": 1,
+        "fp": 69,
+        "fn": 1,
+        "precision": 0.014285714285714285,
+        "recall": 0.5,
+        "f1": 0.02777777777777778,
+        "attributes": {
+          "timeofday": "night",
+          "weather": "rainy",
+          "scene": "highway"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/car/worst/c81ff2c0-6243618f.jpg"
+      },
+      {
+        "image_id": 1098,
+        "file_name": "b48dd7b4-9cc0d29a.jpg",
+        "tp": 1,
+        "fp": 53,
+        "fn": 1,
+        "precision": 0.018518518518518517,
+        "recall": 0.5,
+        "f1": 0.03571428571428571,
+        "attributes": {
+          "timeofday": "night",
+          "weather": "clear",
+          "scene": "highway"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/car/worst/b48dd7b4-9cc0d29a.jpg"
+      },
+      {
+        "image_id": 4217,
+        "file_name": "bc990749-20748014.jpg",
+        "tp": 1,
+        "fp": 50,
+        "fn": 0,
+        "precision": 0.0196078431372549,
+        "recall": 1.0,
+        "f1": 0.038461538461538464,
+        "attributes": {
+          "timeofday": "night",
+          "weather": "clear",
+          "scene": "highway"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/car/worst/bc990749-20748014.jpg"
+      },
+      {
+        "image_id": 8033,
+        "file_name": "c5b64f27-b5bd4388.jpg",
+        "tp": 1,
+        "fp": 44,
+        "fn": 4,
+        "precision": 0.022222222222222223,
+        "recall": 0.2,
+        "f1": 0.039999999999999994,
+        "attributes": {
+          "timeofday": "night",
+          "weather": "clear",
+          "scene": "highway"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/car/worst/c5b64f27-b5bd4388.jpg"
+      }
+    ]
+  },
+  "motor": {
+    "best": [
+      {
+        "image_id": 9996,
+        "file_name": "fe1d9184-d144106a.jpg",
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "clear",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/motor/best/fe1d9184-d144106a.jpg"
+      },
+      {
+        "image_id": 9725,
+        "file_name": "c9c6949a-14eea22b.jpg",
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "undefined",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/motor/best/c9c6949a-14eea22b.jpg"
+      },
+      {
+        "image_id": 9668,
+        "file_name": "c993615f-9738b00a.jpg",
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "dawn/dusk",
+          "weather": "overcast",
+          "scene": "residential"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/motor/best/c993615f-9738b00a.jpg"
+      },
+      {
+        "image_id": 9445,
+        "file_name": "c91eb48f-a7497694.jpg",
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "clear",
+          "scene": "residential"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/motor/best/c91eb48f-a7497694.jpg"
+      },
+      {
+        "image_id": 9219,
+        "file_name": "c897cc2b-2a1bc9f0.jpg",
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "clear",
+          "scene": "residential"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/motor/best/c897cc2b-2a1bc9f0.jpg"
+      },
+      {
+        "image_id": 9193,
+        "file_name": "c8863aea-d79c8788.jpg",
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "night",
+          "weather": "clear",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/motor/best/c8863aea-d79c8788.jpg"
+      },
+      {
+        "image_id": 9178,
+        "file_name": "c87a634a-83007615.jpg",
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "overcast",
+          "scene": "residential"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/motor/best/c87a634a-83007615.jpg"
+      },
+      {
+        "image_id": 8978,
+        "file_name": "c7f8589f-a2c6b9a4.jpg",
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "clear",
+          "scene": "highway"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/motor/best/c7f8589f-a2c6b9a4.jpg"
+      },
+      {
+        "image_id": 8640,
+        "file_name": "c72373c0-af574c12.jpg",
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "clear",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/motor/best/c72373c0-af574c12.jpg"
+      },
+      {
+        "image_id": 8511,
+        "file_name": "c6c75718-c93cfdd7.jpg",
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "night",
+          "weather": "clear",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/motor/best/c6c75718-c93cfdd7.jpg"
+      },
+      {
+        "image_id": 8394,
+        "file_name": "c685aea9-1f0ae51d.jpg",
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "undefined",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/motor/best/c685aea9-1f0ae51d.jpg"
+      },
+      {
+        "image_id": 8203,
+        "file_name": "c614250f-612cd1b1.jpg",
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "night",
+          "weather": "clear",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/motor/best/c614250f-612cd1b1.jpg"
+      },
+      {
+        "image_id": 7654,
+        "file_name": "c4dbd719-26df8369.jpg",
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "partly cloudy",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/motor/best/c4dbd719-26df8369.jpg"
+      },
+      {
+        "image_id": 7563,
+        "file_name": "c49c8353-fe2f3304.jpg",
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "night",
+          "weather": "clear",
+          "scene": "highway"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/motor/best/c49c8353-fe2f3304.jpg"
+      },
+      {
+        "image_id": 7532,
+        "file_name": "c48bcc55-9fc09810.jpg",
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "undefined",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/motor/best/c48bcc55-9fc09810.jpg"
+      },
+      {
+        "image_id": 7392,
+        "file_name": "c43778b1-56af0542.jpg",
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "partly cloudy",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/motor/best/c43778b1-56af0542.jpg"
+      },
+      {
+        "image_id": 7179,
+        "file_name": "c3a015d4-2779708e.jpg",
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "undefined",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/motor/best/c3a015d4-2779708e.jpg"
+      },
+      {
+        "image_id": 7064,
+        "file_name": "c366973d-f5ec8394.jpg",
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "clear",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/motor/best/c366973d-f5ec8394.jpg"
+      },
+      {
+        "image_id": 6604,
+        "file_name": "c21defc7-61b5e22a.jpg",
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "undefined",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/motor/best/c21defc7-61b5e22a.jpg"
+      },
+      {
+        "image_id": 6418,
+        "file_name": "c1bbc01a-42a391bd.jpg",
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "clear",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/motor/best/c1bbc01a-42a391bd.jpg"
+      }
+    ],
+    "worst": [
+      {
+        "image_id": 1,
+        "file_name": "b1c66a42-6f7d68ca.jpg",
+        "tp": 0,
+        "fp": 0,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "overcast",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/motor/worst/b1c66a42-6f7d68ca.jpg"
+      },
+      {
+        "image_id": 57,
+        "file_name": "b1df722f-5bcc3db7.jpg",
+        "tp": 0,
+        "fp": 0,
+        "fn": 4,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "clear",
+          "scene": "highway"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/motor/worst/b1df722f-5bcc3db7.jpg"
+      },
+      {
+        "image_id": 271,
+        "file_name": "b26610ce-083c3bd1.jpg",
+        "tp": 0,
+        "fp": 0,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "night",
+          "weather": "clear",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/motor/worst/b26610ce-083c3bd1.jpg"
+      },
+      {
+        "image_id": 361,
+        "file_name": "b29026f0-d5a5ee8c.jpg",
+        "tp": 0,
+        "fp": 0,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "rainy",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/motor/worst/b29026f0-d5a5ee8c.jpg"
+      },
+      {
+        "image_id": 401,
+        "file_name": "b2ae0446-4b0bfda7.jpg",
+        "tp": 0,
+        "fp": 0,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "dawn/dusk",
+          "weather": "clear",
+          "scene": "residential"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/motor/worst/b2ae0446-4b0bfda7.jpg"
+      },
+      {
+        "image_id": 596,
+        "file_name": "b33ea6cb-3464fb13.jpg",
+        "tp": 0,
+        "fp": 0,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "clear",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/motor/worst/b33ea6cb-3464fb13.jpg"
+      },
+      {
+        "image_id": 601,
+        "file_name": "b3432539-8f9fc466.jpg",
+        "tp": 0,
+        "fp": 0,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "overcast",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/motor/worst/b3432539-8f9fc466.jpg"
+      },
+      {
+        "image_id": 656,
+        "file_name": "b36de7af-ca137216.jpg",
+        "tp": 0,
+        "fp": 4,
+        "fn": 2,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "clear",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/motor/worst/b36de7af-ca137216.jpg"
+      },
+      {
+        "image_id": 661,
+        "file_name": "b371451e-7caf934b.jpg",
+        "tp": 0,
+        "fp": 0,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "overcast",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/motor/worst/b371451e-7caf934b.jpg"
+      },
+      {
+        "image_id": 726,
+        "file_name": "b398327e-3d2a2683.jpg",
+        "tp": 0,
+        "fp": 1,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "clear",
+          "scene": "highway"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/motor/worst/b398327e-3d2a2683.jpg"
+      },
+      {
+        "image_id": 921,
+        "file_name": "b41d35f8-6cf85033.jpg",
+        "tp": 0,
+        "fp": 0,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "clear",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/motor/worst/b41d35f8-6cf85033.jpg"
+      },
+      {
+        "image_id": 1016,
+        "file_name": "b45f01c5-85bc12e8.jpg",
+        "tp": 0,
+        "fp": 0,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "rainy",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/motor/worst/b45f01c5-85bc12e8.jpg"
+      },
+      {
+        "image_id": 1027,
+        "file_name": "b4620633-1c10abdb.jpg",
+        "tp": 0,
+        "fp": 0,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "night",
+          "weather": "rainy",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/motor/worst/b4620633-1c10abdb.jpg"
+      },
+      {
+        "image_id": 1047,
+        "file_name": "b470a84a-fcde9033.jpg",
+        "tp": 0,
+        "fp": 0,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "overcast",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/motor/worst/b470a84a-fcde9033.jpg"
+      },
+      {
+        "image_id": 1148,
+        "file_name": "b4a99fcc-8552240d.jpg",
+        "tp": 0,
+        "fp": 0,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "undefined",
+          "scene": "residential"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/motor/worst/b4a99fcc-8552240d.jpg"
+      },
+      {
+        "image_id": 1349,
+        "file_name": "b51dfd71-9599e952.jpg",
+        "tp": 0,
+        "fp": 1,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "partly cloudy",
+          "scene": "residential"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/motor/worst/b51dfd71-9599e952.jpg"
+      },
+      {
+        "image_id": 1540,
+        "file_name": "b588c233-8a21f0be.jpg",
+        "tp": 0,
+        "fp": 0,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "partly cloudy",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/motor/worst/b588c233-8a21f0be.jpg"
+      },
+      {
+        "image_id": 1599,
+        "file_name": "b5ab0e46-8eab4733.jpg",
+        "tp": 0,
+        "fp": 2,
+        "fn": 2,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "clear",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/motor/worst/b5ab0e46-8eab4733.jpg"
+      },
+      {
+        "image_id": 1702,
+        "file_name": "b5e6efc0-ac69d492.jpg",
+        "tp": 0,
+        "fp": 0,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "undefined",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/motor/worst/b5e6efc0-ac69d492.jpg"
+      },
+      {
+        "image_id": 1812,
+        "file_name": "b62c825e-75f4cc31.jpg",
+        "tp": 0,
+        "fp": 1,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "night",
+          "weather": "clear",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/motor/worst/b62c825e-75f4cc31.jpg"
+      }
+    ]
+  },
+  "rider": {
+    "best": [
+      {
+        "image_id": 9996,
+        "file_name": "fe1d9184-d144106a.jpg",
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "clear",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/rider/best/fe1d9184-d144106a.jpg"
+      },
+      {
+        "image_id": 9945,
+        "file_name": "ca430005-edb0085d.jpg",
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "night",
+          "weather": "clear",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/rider/best/ca430005-edb0085d.jpg"
+      },
+      {
+        "image_id": 9407,
+        "file_name": "c90c8198-f73aed79.jpg",
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "overcast",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/rider/best/c90c8198-f73aed79.jpg"
+      },
+      {
+        "image_id": 9362,
+        "file_name": "c8eeb9c9-d3212cfe.jpg",
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "dawn/dusk",
+          "weather": "snowy",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/rider/best/c8eeb9c9-d3212cfe.jpg"
+      },
+      {
+        "image_id": 9303,
+        "file_name": "c8c76d82-9502dce2.jpg",
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "clear",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/rider/best/c8c76d82-9502dce2.jpg"
+      },
+      {
+        "image_id": 9249,
+        "file_name": "c8aca1e2-4d35a25a.jpg",
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "dawn/dusk",
+          "weather": "overcast",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/rider/best/c8aca1e2-4d35a25a.jpg"
+      },
+      {
+        "image_id": 9085,
+        "file_name": "c83c10de-ad9c3fe6.jpg",
+        "tp": 2,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "clear",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/rider/best/c83c10de-ad9c3fe6.jpg"
+      },
+      {
+        "image_id": 8930,
+        "file_name": "c7d8260d-1c3f0898.jpg",
+        "tp": 2,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "overcast",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/rider/best/c7d8260d-1c3f0898.jpg"
+      },
+      {
+        "image_id": 8919,
+        "file_name": "c7cc0645-95e6a224.jpg",
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "night",
+          "weather": "clear",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/rider/best/c7cc0645-95e6a224.jpg"
+      },
+      {
+        "image_id": 8843,
+        "file_name": "c7955e20-b48c7a6a.jpg",
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "clear",
+          "scene": "residential"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/rider/best/c7955e20-b48c7a6a.jpg"
+      },
+      {
+        "image_id": 8537,
+        "file_name": "c6da617f-977c903c.jpg",
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "undefined",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/rider/best/c6da617f-977c903c.jpg"
+      },
+      {
+        "image_id": 8425,
+        "file_name": "c69227ec-e31502fc.jpg",
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "night",
+          "weather": "clear",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/rider/best/c69227ec-e31502fc.jpg"
+      },
+      {
+        "image_id": 8423,
+        "file_name": "c6921a51-a36f6af9.jpg",
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "clear",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/rider/best/c6921a51-a36f6af9.jpg"
+      },
+      {
+        "image_id": 8279,
+        "file_name": "c64d742b-b58c8bc3.jpg",
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "night",
+          "weather": "clear",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/rider/best/c64d742b-b58c8bc3.jpg"
+      },
+      {
+        "image_id": 8133,
+        "file_name": "c5eb7f02-2eeb75ed.jpg",
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "clear",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/rider/best/c5eb7f02-2eeb75ed.jpg"
+      },
+      {
+        "image_id": 8128,
+        "file_name": "c5e8457e-381c8a85.jpg",
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "overcast",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/rider/best/c5e8457e-381c8a85.jpg"
+      },
+      {
+        "image_id": 7968,
+        "file_name": "c58bb853-256a6c3e.jpg",
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "night",
+          "weather": "clear",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/rider/best/c58bb853-256a6c3e.jpg"
+      },
+      {
+        "image_id": 7884,
+        "file_name": "c569c251-8a583641.jpg",
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "clear",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/rider/best/c569c251-8a583641.jpg"
+      },
+      {
+        "image_id": 7674,
+        "file_name": "c4e96efa-73bd2e38.jpg",
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "rainy",
+          "scene": "highway"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/rider/best/c4e96efa-73bd2e38.jpg"
+      },
+      {
+        "image_id": 7639,
+        "file_name": "c4d1be5c-f868e120.jpg",
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "night",
+          "weather": "clear",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/rider/best/c4d1be5c-f868e120.jpg"
+      }
+    ],
+    "worst": [
+      {
+        "image_id": 21,
+        "file_name": "b1d0a191-5490450b.jpg",
+        "tp": 0,
+        "fp": 0,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "snowy",
+          "scene": "residential"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/rider/worst/b1d0a191-5490450b.jpg"
+      },
+      {
+        "image_id": 57,
+        "file_name": "b1df722f-5bcc3db7.jpg",
+        "tp": 0,
+        "fp": 0,
+        "fn": 4,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "clear",
+          "scene": "highway"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/rider/worst/b1df722f-5bcc3db7.jpg"
+      },
+      {
+        "image_id": 114,
+        "file_name": "b2046bcf-8bc6a044.jpg",
+        "tp": 0,
+        "fp": 8,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "snowy",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/rider/worst/b2046bcf-8bc6a044.jpg"
+      },
+      {
+        "image_id": 207,
+        "file_name": "b246c8e8-3dd42e6c.jpg",
+        "tp": 0,
+        "fp": 1,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "night",
+          "weather": "clear",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/rider/worst/b246c8e8-3dd42e6c.jpg"
+      },
+      {
+        "image_id": 305,
+        "file_name": "b27098c3-c443b6e3.jpg",
+        "tp": 0,
+        "fp": 1,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "partly cloudy",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/rider/worst/b27098c3-c443b6e3.jpg"
+      },
+      {
+        "image_id": 361,
+        "file_name": "b29026f0-d5a5ee8c.jpg",
+        "tp": 0,
+        "fp": 1,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "rainy",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/rider/worst/b29026f0-d5a5ee8c.jpg"
+      },
+      {
+        "image_id": 454,
+        "file_name": "b2d8704e-66d10551.jpg",
+        "tp": 0,
+        "fp": 1,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "snowy",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/rider/worst/b2d8704e-66d10551.jpg"
+      },
+      {
+        "image_id": 469,
+        "file_name": "b2e2126b-0512426c.jpg",
+        "tp": 0,
+        "fp": 2,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "overcast",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/rider/worst/b2e2126b-0512426c.jpg"
+      },
+      {
+        "image_id": 492,
+        "file_name": "b2efc911-2ad925b4.jpg",
+        "tp": 0,
+        "fp": 0,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "night",
+          "weather": "clear",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/rider/worst/b2efc911-2ad925b4.jpg"
+      },
+      {
+        "image_id": 596,
+        "file_name": "b33ea6cb-3464fb13.jpg",
+        "tp": 0,
+        "fp": 2,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "clear",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/rider/worst/b33ea6cb-3464fb13.jpg"
+      },
+      {
+        "image_id": 661,
+        "file_name": "b371451e-7caf934b.jpg",
+        "tp": 0,
+        "fp": 1,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "overcast",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/rider/worst/b371451e-7caf934b.jpg"
+      },
+      {
+        "image_id": 777,
+        "file_name": "b3a969fe-5181b89f.jpg",
+        "tp": 0,
+        "fp": 0,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "undefined",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/rider/worst/b3a969fe-5181b89f.jpg"
+      },
+      {
+        "image_id": 843,
+        "file_name": "b3e0345b-69069f01.jpg",
+        "tp": 0,
+        "fp": 0,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "undefined",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/rider/worst/b3e0345b-69069f01.jpg"
+      },
+      {
+        "image_id": 887,
+        "file_name": "b3f7c502-d89499e0.jpg",
+        "tp": 0,
+        "fp": 0,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "night",
+          "weather": "clear",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/rider/worst/b3f7c502-d89499e0.jpg"
+      },
+      {
+        "image_id": 921,
+        "file_name": "b41d35f8-6cf85033.jpg",
+        "tp": 0,
+        "fp": 0,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "clear",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/rider/worst/b41d35f8-6cf85033.jpg"
+      },
+      {
+        "image_id": 926,
+        "file_name": "b422ec08-236606a0.jpg",
+        "tp": 0,
+        "fp": 3,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "overcast",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/rider/worst/b422ec08-236606a0.jpg"
+      },
+      {
+        "image_id": 950,
+        "file_name": "b42df626-3c4d9bfd.jpg",
+        "tp": 0,
+        "fp": 3,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "dawn/dusk",
+          "weather": "clear",
+          "scene": "highway"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/rider/worst/b42df626-3c4d9bfd.jpg"
+      },
+      {
+        "image_id": 1016,
+        "file_name": "b45f01c5-85bc12e8.jpg",
+        "tp": 0,
+        "fp": 3,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "rainy",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/rider/worst/b45f01c5-85bc12e8.jpg"
+      },
+      {
+        "image_id": 1037,
+        "file_name": "b4672385-70ffa818.jpg",
+        "tp": 0,
+        "fp": 2,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "dawn/dusk",
+          "weather": "overcast",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/rider/worst/b4672385-70ffa818.jpg"
+      },
+      {
+        "image_id": 1043,
+        "file_name": "b46ee89c-76b16eec.jpg",
+        "tp": 0,
+        "fp": 0,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "night",
+          "weather": "clear",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/rider/worst/b46ee89c-76b16eec.jpg"
+      }
+    ]
+  },
+  "traffic light": {
+    "best": [
+      {
+        "image_id": 9808,
+        "file_name": "c9f6b520-523674ac.jpg",
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "overcast",
+          "scene": "highway"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/traffic light/best/c9f6b520-523674ac.jpg"
+      },
+      {
+        "image_id": 9750,
+        "file_name": "c9cd9fa8-d69dfb4e.jpg",
+        "tp": 2,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "night",
+          "weather": "clear",
+          "scene": "residential"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/traffic light/best/c9cd9fa8-d69dfb4e.jpg"
+      },
+      {
+        "image_id": 9615,
+        "file_name": "c9708ee8-31f4eece.jpg",
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "dawn/dusk",
+          "weather": "clear",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/traffic light/best/c9708ee8-31f4eece.jpg"
+      },
+      {
+        "image_id": 9539,
+        "file_name": "c94a5fb6-446b8726.jpg",
+        "tp": 2,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "night",
+          "weather": "clear",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/traffic light/best/c94a5fb6-446b8726.jpg"
+      },
+      {
+        "image_id": 9239,
+        "file_name": "c8a7a62d-4f48082b.jpg",
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "undefined",
+          "scene": "residential"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/traffic light/best/c8a7a62d-4f48082b.jpg"
+      },
+      {
+        "image_id": 9015,
+        "file_name": "c811793c-7a592fd4.jpg",
+        "tp": 2,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "night",
+          "weather": "clear",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/traffic light/best/c811793c-7a592fd4.jpg"
+      },
+      {
+        "image_id": 8354,
+        "file_name": "c67075c0-452a5634.jpg",
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "night",
+          "weather": "clear",
+          "scene": "highway"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/traffic light/best/c67075c0-452a5634.jpg"
+      },
+      {
+        "image_id": 8299,
+        "file_name": "c65628b7-8260b5b1.jpg",
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "night",
+          "weather": "clear",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/traffic light/best/c65628b7-8260b5b1.jpg"
+      },
+      {
+        "image_id": 8201,
+        "file_name": "c60ffc99-13f7f8e0.jpg",
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "overcast",
+          "scene": "highway"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/traffic light/best/c60ffc99-13f7f8e0.jpg"
+      },
+      {
+        "image_id": 8089,
+        "file_name": "c5cdbe94-689ed201.jpg",
+        "tp": 2,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "night",
+          "weather": "clear",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/traffic light/best/c5cdbe94-689ed201.jpg"
+      },
+      {
+        "image_id": 8050,
+        "file_name": "c5b80ec1-bb9fd172.jpg",
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "clear",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/traffic light/best/c5b80ec1-bb9fd172.jpg"
+      },
+      {
+        "image_id": 7967,
+        "file_name": "c58ba000-928da283.jpg",
+        "tp": 2,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "night",
+          "weather": "clear",
+          "scene": "residential"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/traffic light/best/c58ba000-928da283.jpg"
+      },
+      {
+        "image_id": 7945,
+        "file_name": "c584f2c3-83912b35.jpg",
+        "tp": 3,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "clear",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/traffic light/best/c584f2c3-83912b35.jpg"
+      },
+      {
+        "image_id": 7783,
+        "file_name": "c536c7e6-f9b2808f.jpg",
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "dawn/dusk",
+          "weather": "clear",
+          "scene": "highway"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/traffic light/best/c536c7e6-f9b2808f.jpg"
+      },
+      {
+        "image_id": 7561,
+        "file_name": "c49c8353-ec5d3b29.jpg",
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "night",
+          "weather": "clear",
+          "scene": "highway"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/traffic light/best/c49c8353-ec5d3b29.jpg"
+      },
+      {
+        "image_id": 7401,
+        "file_name": "c43df889-410e2643.jpg",
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "night",
+          "weather": "clear",
+          "scene": "highway"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/traffic light/best/c43df889-410e2643.jpg"
+      },
+      {
+        "image_id": 7212,
+        "file_name": "c3b9feeb-8362c56c.jpg",
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "dawn/dusk",
+          "weather": "partly cloudy",
+          "scene": "highway"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/traffic light/best/c3b9feeb-8362c56c.jpg"
+      },
+      {
+        "image_id": 7180,
+        "file_name": "c3a048fb-9adc169f.jpg",
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "clear",
+          "scene": "highway"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/traffic light/best/c3a048fb-9adc169f.jpg"
+      },
+      {
+        "image_id": 7146,
+        "file_name": "c39375fb-4de2d085.jpg",
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "night",
+          "weather": "clear",
+          "scene": "residential"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/traffic light/best/c39375fb-4de2d085.jpg"
+      },
+      {
+        "image_id": 6810,
+        "file_name": "c2c8b275-a29bbc9b.jpg",
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "night",
+          "weather": "clear",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/traffic light/best/c2c8b275-a29bbc9b.jpg"
+      }
+    ],
+    "worst": [
+      {
+        "image_id": 13,
+        "file_name": "b1ceb32e-a106591d.jpg",
+        "tp": 0,
+        "fp": 6,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "overcast",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/traffic light/worst/b1ceb32e-a106591d.jpg"
+      },
+      {
+        "image_id": 25,
+        "file_name": "b1d10d08-743fd86c.jpg",
+        "tp": 0,
+        "fp": 2,
+        "fn": 2,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "night",
+          "weather": "clear",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/traffic light/worst/b1d10d08-743fd86c.jpg"
+      },
+      {
+        "image_id": 35,
+        "file_name": "b1d4b62c-d9805029.jpg",
+        "tp": 0,
+        "fp": 3,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "night",
+          "weather": "clear",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/traffic light/worst/b1d4b62c-d9805029.jpg"
+      },
+      {
+        "image_id": 93,
+        "file_name": "b1f4491b-cf446195.jpg",
+        "tp": 0,
+        "fp": 2,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "overcast",
+          "scene": "highway"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/traffic light/worst/b1f4491b-cf446195.jpg"
+      },
+      {
+        "image_id": 96,
+        "file_name": "b1f62c41-ed0c6521.jpg",
+        "tp": 0,
+        "fp": 4,
+        "fn": 2,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "clear",
+          "scene": "residential"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/traffic light/worst/b1f62c41-ed0c6521.jpg"
+      },
+      {
+        "image_id": 159,
+        "file_name": "b21c86ac-2eb7ba16.jpg",
+        "tp": 0,
+        "fp": 5,
+        "fn": 2,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "dawn/dusk",
+          "weather": "partly cloudy",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/traffic light/worst/b21c86ac-2eb7ba16.jpg"
+      },
+      {
+        "image_id": 222,
+        "file_name": "b24ca67a-594d7d3c.jpg",
+        "tp": 0,
+        "fp": 4,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "night",
+          "weather": "clear",
+          "scene": "highway"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/traffic light/worst/b24ca67a-594d7d3c.jpg"
+      },
+      {
+        "image_id": 231,
+        "file_name": "b250fb0c-01a1b8d3.jpg",
+        "tp": 0,
+        "fp": 6,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "clear",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/traffic light/worst/b250fb0c-01a1b8d3.jpg"
+      },
+      {
+        "image_id": 331,
+        "file_name": "b27cd403-f2d087cc.jpg",
+        "tp": 0,
+        "fp": 2,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "undefined",
+          "scene": "residential"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/traffic light/worst/b27cd403-f2d087cc.jpg"
+      },
+      {
+        "image_id": 335,
+        "file_name": "b27d5dcb-9230790c.jpg",
+        "tp": 0,
+        "fp": 16,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "dawn/dusk",
+          "weather": "foggy",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/traffic light/worst/b27d5dcb-9230790c.jpg"
+      },
+      {
+        "image_id": 387,
+        "file_name": "b2a1e172-a969db88.jpg",
+        "tp": 0,
+        "fp": 13,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "night",
+          "weather": "clear",
+          "scene": "highway"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/traffic light/worst/b2a1e172-a969db88.jpg"
+      },
+      {
+        "image_id": 428,
+        "file_name": "b2c23864-810e4e1d.jpg",
+        "tp": 0,
+        "fp": 3,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "overcast",
+          "scene": "highway"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/traffic light/worst/b2c23864-810e4e1d.jpg"
+      },
+      {
+        "image_id": 516,
+        "file_name": "b3060c96-d2391b61.jpg",
+        "tp": 0,
+        "fp": 3,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "overcast",
+          "scene": "highway"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/traffic light/worst/b3060c96-d2391b61.jpg"
+      },
+      {
+        "image_id": 541,
+        "file_name": "b3121071-cac49b3a.jpg",
+        "tp": 0,
+        "fp": 16,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "clear",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/traffic light/worst/b3121071-cac49b3a.jpg"
+      },
+      {
+        "image_id": 555,
+        "file_name": "b31c98f7-a342fff6.jpg",
+        "tp": 0,
+        "fp": 14,
+        "fn": 6,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "clear",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/traffic light/worst/b31c98f7-a342fff6.jpg"
+      },
+      {
+        "image_id": 577,
+        "file_name": "b3339cd5-06f84bb3.jpg",
+        "tp": 0,
+        "fp": 6,
+        "fn": 2,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "clear",
+          "scene": "residential"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/traffic light/worst/b3339cd5-06f84bb3.jpg"
+      },
+      {
+        "image_id": 666,
+        "file_name": "b3770858-ea33d0dc.jpg",
+        "tp": 0,
+        "fp": 2,
+        "fn": 2,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "night",
+          "weather": "clear",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/traffic light/worst/b3770858-ea33d0dc.jpg"
+      },
+      {
+        "image_id": 703,
+        "file_name": "b38b8783-9cc1ad04.jpg",
+        "tp": 0,
+        "fp": 5,
+        "fn": 2,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "undefined",
+          "scene": "residential"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/traffic light/worst/b38b8783-9cc1ad04.jpg"
+      },
+      {
+        "image_id": 716,
+        "file_name": "b39572b6-aa95db3d.jpg",
+        "tp": 0,
+        "fp": 5,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "undefined",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/traffic light/worst/b39572b6-aa95db3d.jpg"
+      },
+      {
+        "image_id": 749,
+        "file_name": "b39fe3cd-f0d534c0.jpg",
+        "tp": 0,
+        "fp": 5,
+        "fn": 2,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "night",
+          "weather": "clear",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/traffic light/worst/b39fe3cd-f0d534c0.jpg"
+      }
+    ]
+  },
+  "traffic sign": {
+    "best": [
+      {
+        "image_id": 9573,
+        "file_name": "c95f4860-c6c0856d.jpg",
+        "tp": 2,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "dawn/dusk",
+          "weather": "clear",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/traffic sign/best/c95f4860-c6c0856d.jpg"
+      },
+      {
+        "image_id": 9420,
+        "file_name": "c9172da6-c3a38f22.jpg",
+        "tp": 4,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "night",
+          "weather": "clear",
+          "scene": "highway"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/traffic sign/best/c9172da6-c3a38f22.jpg"
+      },
+      {
+        "image_id": 9419,
+        "file_name": "c917201f-5bbb8087.jpg",
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "overcast",
+          "scene": "highway"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/traffic sign/best/c917201f-5bbb8087.jpg"
+      },
+      {
+        "image_id": 9062,
+        "file_name": "c833fb57-b7aef18a.jpg",
+        "tp": 2,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "night",
+          "weather": "clear",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/traffic sign/best/c833fb57-b7aef18a.jpg"
+      },
+      {
+        "image_id": 8718,
+        "file_name": "c74c11fc-f93447f7.jpg",
+        "tp": 2,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "night",
+          "weather": "clear",
+          "scene": "highway"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/traffic sign/best/c74c11fc-f93447f7.jpg"
+      },
+      {
+        "image_id": 8588,
+        "file_name": "c6faa6aa-72bde8a8.jpg",
+        "tp": 3,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "dawn/dusk",
+          "weather": "clear",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/traffic sign/best/c6faa6aa-72bde8a8.jpg"
+      },
+      {
+        "image_id": 8207,
+        "file_name": "c6148dad-b073324c.jpg",
+        "tp": 2,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "undefined",
+          "scene": "residential"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/traffic sign/best/c6148dad-b073324c.jpg"
+      },
+      {
+        "image_id": 7866,
+        "file_name": "c566026b-2879276d.jpg",
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "dawn/dusk",
+          "weather": "clear",
+          "scene": "residential"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/traffic sign/best/c566026b-2879276d.jpg"
+      },
+      {
+        "image_id": 7771,
+        "file_name": "c52f53f8-8e4cd9a5.jpg",
+        "tp": 2,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "night",
+          "weather": "clear",
+          "scene": "highway"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/traffic sign/best/c52f53f8-8e4cd9a5.jpg"
+      },
+      {
+        "image_id": 6636,
+        "file_name": "c23551ce-6007b75e.jpg",
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "partly cloudy",
+          "scene": "highway"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/traffic sign/best/c23551ce-6007b75e.jpg"
+      },
+      {
+        "image_id": 6312,
+        "file_name": "c18d3ffa-befc072e.jpg",
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "clear",
+          "scene": "residential"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/traffic sign/best/c18d3ffa-befc072e.jpg"
+      },
+      {
+        "image_id": 5757,
+        "file_name": "c0625a26-ef2bcca4.jpg",
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "night",
+          "weather": "clear",
+          "scene": "highway"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/traffic sign/best/c0625a26-ef2bcca4.jpg"
+      },
+      {
+        "image_id": 4999,
+        "file_name": "be6fd6ac-624b4634.jpg",
+        "tp": 4,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "clear",
+          "scene": "highway"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/traffic sign/best/be6fd6ac-624b4634.jpg"
+      },
+      {
+        "image_id": 4637,
+        "file_name": "bd9dbebc-30ccb9f3.jpg",
+        "tp": 2,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "dawn/dusk",
+          "weather": "partly cloudy",
+          "scene": "highway"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/traffic sign/best/bd9dbebc-30ccb9f3.jpg"
+      },
+      {
+        "image_id": 4463,
+        "file_name": "bd355fcc-677a5dc3.jpg",
+        "tp": 2,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "night",
+          "weather": "clear",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/traffic sign/best/bd355fcc-677a5dc3.jpg"
+      },
+      {
+        "image_id": 3472,
+        "file_name": "bab692c9-3cd892ff.jpg",
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "clear",
+          "scene": "residential"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/traffic sign/best/bab692c9-3cd892ff.jpg"
+      },
+      {
+        "image_id": 3390,
+        "file_name": "ba7ad79b-d9c40465.jpg",
+        "tp": 2,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "undefined",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/traffic sign/best/ba7ad79b-d9c40465.jpg"
+      },
+      {
+        "image_id": 3361,
+        "file_name": "ba5d93c3-c082cdd4.jpg",
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "night",
+          "weather": "clear",
+          "scene": "residential"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/traffic sign/best/ba5d93c3-c082cdd4.jpg"
+      },
+      {
+        "image_id": 3067,
+        "file_name": "b98578b9-f52d7f86.jpg",
+        "tp": 5,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "night",
+          "weather": "clear",
+          "scene": "highway"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/traffic sign/best/b98578b9-f52d7f86.jpg"
+      },
+      {
+        "image_id": 2409,
+        "file_name": "b7b132fc-72617f81.jpg",
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "overcast",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/traffic sign/best/b7b132fc-72617f81.jpg"
+      }
+    ],
+    "worst": [
+      {
+        "image_id": 23,
+        "file_name": "b1d0a191-de8948f6.jpg",
+        "tp": 0,
+        "fp": 15,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "snowy",
+          "scene": "highway"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/traffic sign/worst/b1d0a191-de8948f6.jpg"
+      },
+      {
+        "image_id": 135,
+        "file_name": "b20e291a-6012d836.jpg",
+        "tp": 0,
+        "fp": 6,
+        "fn": 2,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "clear",
+          "scene": "residential"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/traffic sign/worst/b20e291a-6012d836.jpg"
+      },
+      {
+        "image_id": 152,
+        "file_name": "b21742c2-0e7a2b57.jpg",
+        "tp": 0,
+        "fp": 12,
+        "fn": 2,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "undefined",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/traffic sign/worst/b21742c2-0e7a2b57.jpg"
+      },
+      {
+        "image_id": 541,
+        "file_name": "b3121071-cac49b3a.jpg",
+        "tp": 0,
+        "fp": 9,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "clear",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/traffic sign/worst/b3121071-cac49b3a.jpg"
+      },
+      {
+        "image_id": 623,
+        "file_name": "b3566b0e-f8e7b731.jpg",
+        "tp": 0,
+        "fp": 9,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "snowy",
+          "scene": "residential"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/traffic sign/worst/b3566b0e-f8e7b731.jpg"
+      },
+      {
+        "image_id": 629,
+        "file_name": "b35c1016-5a7c77ee.jpg",
+        "tp": 0,
+        "fp": 9,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "rainy",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/traffic sign/worst/b35c1016-5a7c77ee.jpg"
+      },
+      {
+        "image_id": 648,
+        "file_name": "b368ee71-e2f04304.jpg",
+        "tp": 0,
+        "fp": 11,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "dawn/dusk",
+          "weather": "clear",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/traffic sign/worst/b368ee71-e2f04304.jpg"
+      },
+      {
+        "image_id": 664,
+        "file_name": "b37693d0-cd9bdf88.jpg",
+        "tp": 0,
+        "fp": 12,
+        "fn": 2,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "partly cloudy",
+          "scene": "residential"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/traffic sign/worst/b37693d0-cd9bdf88.jpg"
+      },
+      {
+        "image_id": 734,
+        "file_name": "b39e8c78-f02c29c6.jpg",
+        "tp": 0,
+        "fp": 23,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "rainy",
+          "scene": "highway"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/traffic sign/worst/b39e8c78-f02c29c6.jpg"
+      },
+      {
+        "image_id": 886,
+        "file_name": "b3f603f2-4a80d188.jpg",
+        "tp": 0,
+        "fp": 17,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "night",
+          "weather": "clear",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/traffic sign/worst/b3f603f2-4a80d188.jpg"
+      },
+      {
+        "image_id": 1032,
+        "file_name": "b46478b0-1eb55806.jpg",
+        "tp": 0,
+        "fp": 9,
+        "fn": 2,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "clear",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/traffic sign/worst/b46478b0-1eb55806.jpg"
+      },
+      {
+        "image_id": 1112,
+        "file_name": "b4946e87-e2fe2819.jpg",
+        "tp": 0,
+        "fp": 9,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "night",
+          "weather": "clear",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/traffic sign/worst/b4946e87-e2fe2819.jpg"
+      },
+      {
+        "image_id": 1172,
+        "file_name": "b4b15ff2-16c70581.jpg",
+        "tp": 0,
+        "fp": 4,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "clear",
+          "scene": "highway"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/traffic sign/worst/b4b15ff2-16c70581.jpg"
+      },
+      {
+        "image_id": 1237,
+        "file_name": "b4d65110-ac665389.jpg",
+        "tp": 0,
+        "fp": 9,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "clear",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/traffic sign/worst/b4d65110-ac665389.jpg"
+      },
+      {
+        "image_id": 1325,
+        "file_name": "b50e6154-4aace8a1.jpg",
+        "tp": 0,
+        "fp": 13,
+        "fn": 3,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "undefined",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/traffic sign/worst/b50e6154-4aace8a1.jpg"
+      },
+      {
+        "image_id": 1338,
+        "file_name": "b5191523-9c2c4c83.jpg",
+        "tp": 0,
+        "fp": 22,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "night",
+          "weather": "clear",
+          "scene": "residential"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/traffic sign/worst/b5191523-9c2c4c83.jpg"
+      },
+      {
+        "image_id": 1366,
+        "file_name": "b52f1b58-e49099e8.jpg",
+        "tp": 0,
+        "fp": 9,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "undefined",
+          "scene": "highway"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/traffic sign/worst/b52f1b58-e49099e8.jpg"
+      },
+      {
+        "image_id": 1392,
+        "file_name": "b53f23c3-3d2cea8b.jpg",
+        "tp": 0,
+        "fp": 6,
+        "fn": 2,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "clear",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/traffic sign/worst/b53f23c3-3d2cea8b.jpg"
+      },
+      {
+        "image_id": 1465,
+        "file_name": "b561705d-e341bae9.jpg",
+        "tp": 0,
+        "fp": 2,
+        "fn": 3,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "partly cloudy",
+          "scene": "residential"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/traffic sign/worst/b561705d-e341bae9.jpg"
+      },
+      {
+        "image_id": 1501,
+        "file_name": "b5764fb7-c47fa3ec.jpg",
+        "tp": 0,
+        "fp": 4,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "overcast",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/traffic sign/worst/b5764fb7-c47fa3ec.jpg"
+      }
+    ]
+  },
+  "person": {
+    "best": [
+      {
+        "image_id": 9929,
+        "file_name": "ca3bbb0a-b711f4e3.jpg",
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "overcast",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/person/best/ca3bbb0a-b711f4e3.jpg"
+      },
+      {
+        "image_id": 9887,
+        "file_name": "ca28f275-03f8cef5.jpg",
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "night",
+          "weather": "rainy",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/person/best/ca28f275-03f8cef5.jpg"
+      },
+      {
+        "image_id": 9823,
+        "file_name": "ca009e13-fdb666f6.jpg",
+        "tp": 2,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "clear",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/person/best/ca009e13-fdb666f6.jpg"
+      },
+      {
+        "image_id": 9780,
+        "file_name": "c9df836e-5955e515.jpg",
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "night",
+          "weather": "clear",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/person/best/c9df836e-5955e515.jpg"
+      },
+      {
+        "image_id": 9757,
+        "file_name": "c9cf1065-f841eddc.jpg",
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "night",
+          "weather": "snowy",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/person/best/c9cf1065-f841eddc.jpg"
+      },
+      {
+        "image_id": 9717,
+        "file_name": "c9bbc56e-b9f39d14.jpg",
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "rainy",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/person/best/c9bbc56e-b9f39d14.jpg"
+      },
+      {
+        "image_id": 9704,
+        "file_name": "c9b099e4-efc9579f.jpg",
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "overcast",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/person/best/c9b099e4-efc9579f.jpg"
+      },
+      {
+        "image_id": 9583,
+        "file_name": "c96299f2-e7dd8431.jpg",
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "night",
+          "weather": "rainy",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/person/best/c96299f2-e7dd8431.jpg"
+      },
+      {
+        "image_id": 9540,
+        "file_name": "c94adc37-20233549.jpg",
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "night",
+          "weather": "clear",
+          "scene": "residential"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/person/best/c94adc37-20233549.jpg"
+      },
+      {
+        "image_id": 9443,
+        "file_name": "c91db2b0-38312b9f.jpg",
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "rainy",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/person/best/c91db2b0-38312b9f.jpg"
+      },
+      {
+        "image_id": 9334,
+        "file_name": "c8d838f3-750f337e.jpg",
+        "tp": 2,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "partly cloudy",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/person/best/c8d838f3-750f337e.jpg"
+      },
+      {
+        "image_id": 9027,
+        "file_name": "c81c9789-fdf7aae2.jpg",
+        "tp": 2,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "clear",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/person/best/c81c9789-fdf7aae2.jpg"
+      },
+      {
+        "image_id": 9000,
+        "file_name": "c806608d-592923fd.jpg",
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "overcast",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/person/best/c806608d-592923fd.jpg"
+      },
+      {
+        "image_id": 8975,
+        "file_name": "c7f68540-18a5e077.jpg",
+        "tp": 2,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "night",
+          "weather": "clear",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/person/best/c7f68540-18a5e077.jpg"
+      },
+      {
+        "image_id": 8932,
+        "file_name": "c7d8260d-e1f6b3f8.jpg",
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "overcast",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/person/best/c7d8260d-e1f6b3f8.jpg"
+      },
+      {
+        "image_id": 8909,
+        "file_name": "c7c5969b-4fdfe484.jpg",
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "overcast",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/person/best/c7c5969b-4fdfe484.jpg"
+      },
+      {
+        "image_id": 8906,
+        "file_name": "c7c39101-5935025f.jpg",
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "night",
+          "weather": "snowy",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/person/best/c7c39101-5935025f.jpg"
+      },
+      {
+        "image_id": 8874,
+        "file_name": "c7ab28a2-a8981141.jpg",
+        "tp": 2,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "partly cloudy",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/person/best/c7ab28a2-a8981141.jpg"
+      },
+      {
+        "image_id": 8839,
+        "file_name": "c793b29d-cdc60db3.jpg",
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "dawn/dusk",
+          "weather": "snowy",
+          "scene": "residential"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/person/best/c793b29d-cdc60db3.jpg"
+      },
+      {
+        "image_id": 8744,
+        "file_name": "c75d7961-49f17231.jpg",
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "night",
+          "weather": "clear",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/person/best/c75d7961-49f17231.jpg"
+      }
+    ],
+    "worst": [
+      {
+        "image_id": 21,
+        "file_name": "b1d0a191-5490450b.jpg",
+        "tp": 0,
+        "fp": 7,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "snowy",
+          "scene": "residential"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/person/worst/b1d0a191-5490450b.jpg"
+      },
+      {
+        "image_id": 27,
+        "file_name": "b1d10d08-da110fcb.jpg",
+        "tp": 0,
+        "fp": 9,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "dawn/dusk",
+          "weather": "clear",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/person/worst/b1d10d08-da110fcb.jpg"
+      },
+      {
+        "image_id": 35,
+        "file_name": "b1d4b62c-d9805029.jpg",
+        "tp": 0,
+        "fp": 0,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "night",
+          "weather": "clear",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/person/worst/b1d4b62c-d9805029.jpg"
+      },
+      {
+        "image_id": 54,
+        "file_name": "b1dce572-c6a8cb5e.jpg",
+        "tp": 0,
+        "fp": 1,
+        "fn": 2,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "clear",
+          "scene": "residential"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/person/worst/b1dce572-c6a8cb5e.jpg"
+      },
+      {
+        "image_id": 93,
+        "file_name": "b1f4491b-cf446195.jpg",
+        "tp": 0,
+        "fp": 0,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "overcast",
+          "scene": "highway"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/person/worst/b1f4491b-cf446195.jpg"
+      },
+      {
+        "image_id": 115,
+        "file_name": "b204a5c1-05981158.jpg",
+        "tp": 0,
+        "fp": 2,
+        "fn": 2,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "snowy",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/person/worst/b204a5c1-05981158.jpg"
+      },
+      {
+        "image_id": 134,
+        "file_name": "b20e291a-32ac11c1.jpg",
+        "tp": 0,
+        "fp": 2,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "undefined",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/person/worst/b20e291a-32ac11c1.jpg"
+      },
+      {
+        "image_id": 143,
+        "file_name": "b213e4eb-09c01a17.jpg",
+        "tp": 0,
+        "fp": 1,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "partly cloudy",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/person/worst/b213e4eb-09c01a17.jpg"
+      },
+      {
+        "image_id": 169,
+        "file_name": "b22f385b-5d7e5202.jpg",
+        "tp": 0,
+        "fp": 3,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "overcast",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/person/worst/b22f385b-5d7e5202.jpg"
+      },
+      {
+        "image_id": 173,
+        "file_name": "b232c7c9-d251d9ee.jpg",
+        "tp": 0,
+        "fp": 1,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "undefined",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/person/worst/b232c7c9-d251d9ee.jpg"
+      },
+      {
+        "image_id": 184,
+        "file_name": "b23b2649-8349d2a1.jpg",
+        "tp": 0,
+        "fp": 1,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "overcast",
+          "scene": "gas stations"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/person/worst/b23b2649-8349d2a1.jpg"
+      },
+      {
+        "image_id": 259,
+        "file_name": "b25fb716-78d8d49b.jpg",
+        "tp": 0,
+        "fp": 5,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "overcast",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/person/worst/b25fb716-78d8d49b.jpg"
+      },
+      {
+        "image_id": 313,
+        "file_name": "b27369f3-9b9598f4.jpg",
+        "tp": 0,
+        "fp": 4,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "clear",
+          "scene": "residential"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/person/worst/b27369f3-9b9598f4.jpg"
+      },
+      {
+        "image_id": 317,
+        "file_name": "b275c028-6a0665cb.jpg",
+        "tp": 0,
+        "fp": 2,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "night",
+          "weather": "rainy",
+          "scene": "highway"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/person/worst/b275c028-6a0665cb.jpg"
+      },
+      {
+        "image_id": 350,
+        "file_name": "b28cb5d3-2cf728ac.jpg",
+        "tp": 0,
+        "fp": 1,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "partly cloudy",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/person/worst/b28cb5d3-2cf728ac.jpg"
+      },
+      {
+        "image_id": 412,
+        "file_name": "b2b74321-f6578001.jpg",
+        "tp": 0,
+        "fp": 0,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "dawn/dusk",
+          "weather": "overcast",
+          "scene": "residential"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/person/worst/b2b74321-f6578001.jpg"
+      },
+      {
+        "image_id": 476,
+        "file_name": "b2e54795-601d2d78.jpg",
+        "tp": 0,
+        "fp": 3,
+        "fn": 2,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "clear",
+          "scene": "residential"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/person/worst/b2e54795-601d2d78.jpg"
+      },
+      {
+        "image_id": 525,
+        "file_name": "b30b460d-0e26bd8a.jpg",
+        "tp": 0,
+        "fp": 9,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "night",
+          "weather": "clear",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/person/worst/b30b460d-0e26bd8a.jpg"
+      },
+      {
+        "image_id": 587,
+        "file_name": "b3378e5e-9b684546.jpg",
+        "tp": 0,
+        "fp": 0,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "night",
+          "weather": "undefined",
+          "scene": "undefined"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/person/worst/b3378e5e-9b684546.jpg"
+      },
+      {
+        "image_id": 647,
+        "file_name": "b368ee71-cf27b7fa.jpg",
+        "tp": 0,
+        "fp": 1,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "undefined",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/person/worst/b368ee71-cf27b7fa.jpg"
+      }
+    ]
+  },
+  "bus": {
+    "best": [
+      {
+        "image_id": 9951,
+        "file_name": "ca513280-e4ec496c.jpg",
+        "tp": 2,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "undefined",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/bus/best/ca513280-e4ec496c.jpg"
+      },
+      {
+        "image_id": 9935,
+        "file_name": "ca3f4c16-add215c4.jpg",
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "night",
+          "weather": "clear",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/bus/best/ca3f4c16-add215c4.jpg"
+      },
+      {
+        "image_id": 9922,
+        "file_name": "ca3736db-3471ce50.jpg",
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "dawn/dusk",
+          "weather": "overcast",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/bus/best/ca3736db-3471ce50.jpg"
+      },
+      {
+        "image_id": 9877,
+        "file_name": "ca21055c-2050513f.jpg",
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "dawn/dusk",
+          "weather": "partly cloudy",
+          "scene": "highway"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/bus/best/ca21055c-2050513f.jpg"
+      },
+      {
+        "image_id": 9782,
+        "file_name": "c9df836e-b8fcc9d7.jpg",
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "night",
+          "weather": "clear",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/bus/best/c9df836e-b8fcc9d7.jpg"
+      },
+      {
+        "image_id": 9722,
+        "file_name": "c9c4d608-4555cd80.jpg",
+        "tp": 2,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "partly cloudy",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/bus/best/c9c4d608-4555cd80.jpg"
+      },
+      {
+        "image_id": 9690,
+        "file_name": "c9a4c2a2-e2ef482c.jpg",
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "night",
+          "weather": "snowy",
+          "scene": "highway"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/bus/best/c9a4c2a2-e2ef482c.jpg"
+      },
+      {
+        "image_id": 9658,
+        "file_name": "c98c1005-7d014761.jpg",
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "snowy",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/bus/best/c98c1005-7d014761.jpg"
+      },
+      {
+        "image_id": 9513,
+        "file_name": "c93c1596-49d96696.jpg",
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "night",
+          "weather": "clear",
+          "scene": "highway"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/bus/best/c93c1596-49d96696.jpg"
+      },
+      {
+        "image_id": 9481,
+        "file_name": "c92db9da-58694b5b.jpg",
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "night",
+          "weather": "clear",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/bus/best/c92db9da-58694b5b.jpg"
+      },
+      {
+        "image_id": 9431,
+        "file_name": "c91a84db-cc93d5a1.jpg",
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "overcast",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/bus/best/c91a84db-cc93d5a1.jpg"
+      },
+      {
+        "image_id": 9428,
+        "file_name": "c91a84db-3aee7c05.jpg",
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "overcast",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/bus/best/c91a84db-3aee7c05.jpg"
+      },
+      {
+        "image_id": 9395,
+        "file_name": "c909f3df-d3ce29f1.jpg",
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "night",
+          "weather": "snowy",
+          "scene": "residential"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/bus/best/c909f3df-d3ce29f1.jpg"
+      },
+      {
+        "image_id": 9389,
+        "file_name": "c8ffbba5-334918b7.jpg",
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "night",
+          "weather": "clear",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/bus/best/c8ffbba5-334918b7.jpg"
+      },
+      {
+        "image_id": 9385,
+        "file_name": "c8fc1373-3ce39fc9.jpg",
+        "tp": 2,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "clear",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/bus/best/c8fc1373-3ce39fc9.jpg"
+      },
+      {
+        "image_id": 9382,
+        "file_name": "c8f962d8-1925ff9b.jpg",
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "night",
+          "weather": "clear",
+          "scene": "highway"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/bus/best/c8f962d8-1925ff9b.jpg"
+      },
+      {
+        "image_id": 9379,
+        "file_name": "c8f6f631-a1eb5133.jpg",
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "undefined",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/bus/best/c8f6f631-a1eb5133.jpg"
+      },
+      {
+        "image_id": 9359,
+        "file_name": "c8ee7748-be80b2c6.jpg",
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "night",
+          "weather": "clear",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/bus/best/c8ee7748-be80b2c6.jpg"
+      },
+      {
+        "image_id": 9347,
+        "file_name": "c8e895be-9bf55449.jpg",
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "clear",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/bus/best/c8e895be-9bf55449.jpg"
+      },
+      {
+        "image_id": 9342,
+        "file_name": "c8e01103-9ff8595d.jpg",
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "rainy",
+          "scene": "highway"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/bus/best/c8e01103-9ff8595d.jpg"
+      }
+    ],
+    "worst": [
+      {
+        "image_id": 26,
+        "file_name": "b1d10d08-c35503b8.jpg",
+        "tp": 0,
+        "fp": 0,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "clear",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/bus/worst/b1d10d08-c35503b8.jpg"
+      },
+      {
+        "image_id": 59,
+        "file_name": "b1e1a7b8-0aec80e8.jpg",
+        "tp": 0,
+        "fp": 4,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "dawn/dusk",
+          "weather": "rainy",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/bus/worst/b1e1a7b8-0aec80e8.jpg"
+      },
+      {
+        "image_id": 110,
+        "file_name": "b20234fd-822029be.jpg",
+        "tp": 0,
+        "fp": 4,
+        "fn": 2,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "night",
+          "weather": "clear",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/bus/worst/b20234fd-822029be.jpg"
+      },
+      {
+        "image_id": 209,
+        "file_name": "b246c8e8-ecce1321.jpg",
+        "tp": 0,
+        "fp": 2,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "night",
+          "weather": "clear",
+          "scene": "highway"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/bus/worst/b246c8e8-ecce1321.jpg"
+      },
+      {
+        "image_id": 304,
+        "file_name": "b27098c3-915a9986.jpg",
+        "tp": 0,
+        "fp": 1,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "dawn/dusk",
+          "weather": "clear",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/bus/worst/b27098c3-915a9986.jpg"
+      },
+      {
+        "image_id": 307,
+        "file_name": "b270d8e4-0f565398.jpg",
+        "tp": 0,
+        "fp": 0,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "undefined",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/bus/worst/b270d8e4-0f565398.jpg"
+      },
+      {
+        "image_id": 373,
+        "file_name": "b29511e5-0e7c7013.jpg",
+        "tp": 0,
+        "fp": 2,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "dawn/dusk",
+          "weather": "overcast",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/bus/worst/b29511e5-0e7c7013.jpg"
+      },
+      {
+        "image_id": 378,
+        "file_name": "b29c2372-b53a797c.jpg",
+        "tp": 0,
+        "fp": 2,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "rainy",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/bus/worst/b29c2372-b53a797c.jpg"
+      },
+      {
+        "image_id": 514,
+        "file_name": "b3048201-d86d9cd8.jpg",
+        "tp": 0,
+        "fp": 1,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "clear",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/bus/worst/b3048201-d86d9cd8.jpg"
+      },
+      {
+        "image_id": 588,
+        "file_name": "b3378e5e-b7593301.jpg",
+        "tp": 0,
+        "fp": 0,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "night",
+          "weather": "clear",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/bus/worst/b3378e5e-b7593301.jpg"
+      },
+      {
+        "image_id": 657,
+        "file_name": "b36e0178-0f46bca5.jpg",
+        "tp": 0,
+        "fp": 0,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "night",
+          "weather": "clear",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/bus/worst/b36e0178-0f46bca5.jpg"
+      },
+      {
+        "image_id": 725,
+        "file_name": "b398327e-08f3a1f2.jpg",
+        "tp": 0,
+        "fp": 1,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "clear",
+          "scene": "highway"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/bus/worst/b398327e-08f3a1f2.jpg"
+      },
+      {
+        "image_id": 959,
+        "file_name": "b4304e43-89ba0daa.jpg",
+        "tp": 0,
+        "fp": 4,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "undefined",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/bus/worst/b4304e43-89ba0daa.jpg"
+      },
+      {
+        "image_id": 1024,
+        "file_name": "b4607812-48ed5dcb.jpg",
+        "tp": 0,
+        "fp": 0,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "undefined",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/bus/worst/b4607812-48ed5dcb.jpg"
+      },
+      {
+        "image_id": 1032,
+        "file_name": "b46478b0-1eb55806.jpg",
+        "tp": 0,
+        "fp": 2,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "clear",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/bus/worst/b46478b0-1eb55806.jpg"
+      },
+      {
+        "image_id": 1083,
+        "file_name": "b487a2fa-53094db8.jpg",
+        "tp": 0,
+        "fp": 1,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "undefined",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/bus/worst/b487a2fa-53094db8.jpg"
+      },
+      {
+        "image_id": 1084,
+        "file_name": "b487a2fa-b74b81bc.jpg",
+        "tp": 0,
+        "fp": 5,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "undefined",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/bus/worst/b487a2fa-b74b81bc.jpg"
+      },
+      {
+        "image_id": 1144,
+        "file_name": "b4a8ec73-70456cee.jpg",
+        "tp": 0,
+        "fp": 2,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "clear",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/bus/worst/b4a8ec73-70456cee.jpg"
+      },
+      {
+        "image_id": 1147,
+        "file_name": "b4a99fcc-7870a48b.jpg",
+        "tp": 0,
+        "fp": 1,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "dawn/dusk",
+          "weather": "partly cloudy",
+          "scene": "residential"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/bus/worst/b4a99fcc-7870a48b.jpg"
+      },
+      {
+        "image_id": 1178,
+        "file_name": "b4b394c2-e2f83664.jpg",
+        "tp": 0,
+        "fp": 2,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "night",
+          "weather": "clear",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/bus/worst/b4b394c2-e2f83664.jpg"
+      }
+    ]
+  },
+  "truck": {
+    "best": [
+      {
+        "image_id": 10000,
+        "file_name": "fe1f55fa-19ba3600.jpg",
+        "tp": 2,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "snowy",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/truck/best/fe1f55fa-19ba3600.jpg"
+      },
+      {
+        "image_id": 9994,
+        "file_name": "fe1d74f0-6969bdb5.jpg",
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "night",
+          "weather": "clear",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/truck/best/fe1d74f0-6969bdb5.jpg"
+      },
+      {
+        "image_id": 9985,
+        "file_name": "fe189115-9cc4a501.jpg",
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "dawn/dusk",
+          "weather": "clear",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/truck/best/fe189115-9cc4a501.jpg"
+      },
+      {
+        "image_id": 9955,
+        "file_name": "ca551156-fb7d1680.jpg",
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "night",
+          "weather": "clear",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/truck/best/ca551156-fb7d1680.jpg"
+      },
+      {
+        "image_id": 9940,
+        "file_name": "ca4269e1-0f1e4f92.jpg",
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "night",
+          "weather": "rainy",
+          "scene": "highway"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/truck/best/ca4269e1-0f1e4f92.jpg"
+      },
+      {
+        "image_id": 9937,
+        "file_name": "ca4071a6-6fa1a1c8.jpg",
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "rainy",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/truck/best/ca4071a6-6fa1a1c8.jpg"
+      },
+      {
+        "image_id": 9926,
+        "file_name": "ca3736db-cf9e0cd4.jpg",
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "clear",
+          "scene": "residential"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/truck/best/ca3736db-cf9e0cd4.jpg"
+      },
+      {
+        "image_id": 9922,
+        "file_name": "ca3736db-3471ce50.jpg",
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "dawn/dusk",
+          "weather": "overcast",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/truck/best/ca3736db-3471ce50.jpg"
+      },
+      {
+        "image_id": 9890,
+        "file_name": "ca28f275-95fc6836.jpg",
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "night",
+          "weather": "clear",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/truck/best/ca28f275-95fc6836.jpg"
+      },
+      {
+        "image_id": 9843,
+        "file_name": "ca098890-0947e76a.jpg",
+        "tp": 2,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "night",
+          "weather": "clear",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/truck/best/ca098890-0947e76a.jpg"
+      },
+      {
+        "image_id": 9822,
+        "file_name": "ca009e13-883fafc6.jpg",
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "undefined",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/truck/best/ca009e13-883fafc6.jpg"
+      },
+      {
+        "image_id": 9769,
+        "file_name": "c9d9cbf9-e86cf1ef.jpg",
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "clear",
+          "scene": "residential"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/truck/best/c9d9cbf9-e86cf1ef.jpg"
+      },
+      {
+        "image_id": 9747,
+        "file_name": "c9cc53f7-2ac83c8c.jpg",
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "night",
+          "weather": "clear",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/truck/best/c9cc53f7-2ac83c8c.jpg"
+      },
+      {
+        "image_id": 9727,
+        "file_name": "c9c77676-1fa8e0d6.jpg",
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "night",
+          "weather": "clear",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/truck/best/c9c77676-1fa8e0d6.jpg"
+      },
+      {
+        "image_id": 9687,
+        "file_name": "c9a3a466-84e613da.jpg",
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "undefined",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/truck/best/c9a3a466-84e613da.jpg"
+      },
+      {
+        "image_id": 9678,
+        "file_name": "c99927e4-a37dc628.jpg",
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "night",
+          "weather": "clear",
+          "scene": "highway"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/truck/best/c99927e4-a37dc628.jpg"
+      },
+      {
+        "image_id": 9645,
+        "file_name": "c98232a2-66e6e1fb.jpg",
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "dawn/dusk",
+          "weather": "overcast",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/truck/best/c98232a2-66e6e1fb.jpg"
+      },
+      {
+        "image_id": 9573,
+        "file_name": "c95f4860-c6c0856d.jpg",
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "dawn/dusk",
+          "weather": "clear",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/truck/best/c95f4860-c6c0856d.jpg"
+      },
+      {
+        "image_id": 9571,
+        "file_name": "c95f4860-7342216b.jpg",
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "dawn/dusk",
+          "weather": "clear",
+          "scene": "highway"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/truck/best/c95f4860-7342216b.jpg"
+      },
+      {
+        "image_id": 9565,
+        "file_name": "c95c7aac-1ede8bc6.jpg",
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "night",
+          "weather": "clear",
+          "scene": "highway"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/truck/best/c95c7aac-1ede8bc6.jpg"
+      }
+    ],
+    "worst": [
+      {
+        "image_id": 20,
+        "file_name": "b1d0a191-2ed2269e.jpg",
+        "tp": 0,
+        "fp": 2,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "snowy",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/truck/worst/b1d0a191-2ed2269e.jpg"
+      },
+      {
+        "image_id": 23,
+        "file_name": "b1d0a191-de8948f6.jpg",
+        "tp": 0,
+        "fp": 1,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "snowy",
+          "scene": "highway"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/truck/worst/b1d0a191-de8948f6.jpg"
+      },
+      {
+        "image_id": 57,
+        "file_name": "b1df722f-5bcc3db7.jpg",
+        "tp": 0,
+        "fp": 1,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "clear",
+          "scene": "highway"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/truck/worst/b1df722f-5bcc3db7.jpg"
+      },
+      {
+        "image_id": 66,
+        "file_name": "b1e6efc0-2552cc5d.jpg",
+        "tp": 0,
+        "fp": 3,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "snowy",
+          "scene": "highway"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/truck/worst/b1e6efc0-2552cc5d.jpg"
+      },
+      {
+        "image_id": 88,
+        "file_name": "b1f4491b-33824f31.jpg",
+        "tp": 0,
+        "fp": 1,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "partly cloudy",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/truck/worst/b1f4491b-33824f31.jpg"
+      },
+      {
+        "image_id": 138,
+        "file_name": "b20eae11-6817ba7a.jpg",
+        "tp": 0,
+        "fp": 0,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "night",
+          "weather": "rainy",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/truck/worst/b20eae11-6817ba7a.jpg"
+      },
+      {
+        "image_id": 176,
+        "file_name": "b23493b1-3200de1c.jpg",
+        "tp": 0,
+        "fp": 4,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "partly cloudy",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/truck/worst/b23493b1-3200de1c.jpg"
+      },
+      {
+        "image_id": 274,
+        "file_name": "b266db29-12bf52fa.jpg",
+        "tp": 0,
+        "fp": 1,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "rainy",
+          "scene": "residential"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/truck/worst/b266db29-12bf52fa.jpg"
+      },
+      {
+        "image_id": 296,
+        "file_name": "b26cfcdc-eb092da8.jpg",
+        "tp": 0,
+        "fp": 8,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "rainy",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/truck/worst/b26cfcdc-eb092da8.jpg"
+      },
+      {
+        "image_id": 304,
+        "file_name": "b27098c3-915a9986.jpg",
+        "tp": 0,
+        "fp": 2,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "dawn/dusk",
+          "weather": "clear",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/truck/worst/b27098c3-915a9986.jpg"
+      },
+      {
+        "image_id": 313,
+        "file_name": "b27369f3-9b9598f4.jpg",
+        "tp": 0,
+        "fp": 3,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "clear",
+          "scene": "residential"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/truck/worst/b27369f3-9b9598f4.jpg"
+      },
+      {
+        "image_id": 449,
+        "file_name": "b2d502aa-ef17ffbd.jpg",
+        "tp": 0,
+        "fp": 0,
+        "fn": 6,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "night",
+          "weather": "clear",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/truck/worst/b2d502aa-ef17ffbd.jpg"
+      },
+      {
+        "image_id": 494,
+        "file_name": "b2f48fc3-0b8ff39a.jpg",
+        "tp": 0,
+        "fp": 2,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "snowy",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/truck/worst/b2f48fc3-0b8ff39a.jpg"
+      },
+      {
+        "image_id": 532,
+        "file_name": "b3110036-a32dc26e.jpg",
+        "tp": 0,
+        "fp": 4,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "clear",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/truck/worst/b3110036-a32dc26e.jpg"
+      },
+      {
+        "image_id": 670,
+        "file_name": "b37b0528-92d07297.jpg",
+        "tp": 0,
+        "fp": 5,
+        "fn": 2,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "clear",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/truck/worst/b37b0528-92d07297.jpg"
+      },
+      {
+        "image_id": 683,
+        "file_name": "b380ae2f-afd868dc.jpg",
+        "tp": 0,
+        "fp": 3,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "snowy",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/truck/worst/b380ae2f-afd868dc.jpg"
+      },
+      {
+        "image_id": 685,
+        "file_name": "b3815e24-b9565680.jpg",
+        "tp": 0,
+        "fp": 2,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "dawn/dusk",
+          "weather": "clear",
+          "scene": "residential"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/truck/worst/b3815e24-b9565680.jpg"
+      },
+      {
+        "image_id": 723,
+        "file_name": "b396946b-d29f75f9.jpg",
+        "tp": 0,
+        "fp": 1,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "clear",
+          "scene": "residential"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/truck/worst/b396946b-d29f75f9.jpg"
+      },
+      {
+        "image_id": 742,
+        "file_name": "b39fe3cd-2b89090a.jpg",
+        "tp": 0,
+        "fp": 0,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "night",
+          "weather": "clear",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/truck/worst/b39fe3cd-2b89090a.jpg"
+      },
+      {
+        "image_id": 754,
+        "file_name": "b3a1e72b-1f4b129d.jpg",
+        "tp": 0,
+        "fp": 1,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "overcast",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/truck/worst/b3a1e72b-1f4b129d.jpg"
+      }
+    ]
+  },
+  "bike": {
+    "best": [
+      {
+        "image_id": 9861,
+        "file_name": "ca1543ec-6ad48f6e.jpg",
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "clear",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/bike/best/ca1543ec-6ad48f6e.jpg"
+      },
+      {
+        "image_id": 9241,
+        "file_name": "c8a7a62d-8d489d6e.jpg",
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "undefined",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/bike/best/c8a7a62d-8d489d6e.jpg"
+      },
+      {
+        "image_id": 8931,
+        "file_name": "c7d8260d-9d45834e.jpg",
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "overcast",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/bike/best/c7d8260d-9d45834e.jpg"
+      },
+      {
+        "image_id": 8930,
+        "file_name": "c7d8260d-1c3f0898.jpg",
+        "tp": 2,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "overcast",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/bike/best/c7d8260d-1c3f0898.jpg"
+      },
+      {
+        "image_id": 8872,
+        "file_name": "c7aa5575-4706c0d1.jpg",
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "night",
+          "weather": "clear",
+          "scene": "highway"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/bike/best/c7aa5575-4706c0d1.jpg"
+      },
+      {
+        "image_id": 8843,
+        "file_name": "c7955e20-b48c7a6a.jpg",
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "clear",
+          "scene": "residential"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/bike/best/c7955e20-b48c7a6a.jpg"
+      },
+      {
+        "image_id": 8617,
+        "file_name": "c711ef96-c4582caa.jpg",
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "clear",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/bike/best/c711ef96-c4582caa.jpg"
+      },
+      {
+        "image_id": 8468,
+        "file_name": "c6a94213-9e85fba1.jpg",
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "rainy",
+          "scene": "residential"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/bike/best/c6a94213-9e85fba1.jpg"
+      },
+      {
+        "image_id": 8431,
+        "file_name": "c696b1c8-4e0accee.jpg",
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "overcast",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/bike/best/c696b1c8-4e0accee.jpg"
+      },
+      {
+        "image_id": 8423,
+        "file_name": "c6921a51-a36f6af9.jpg",
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "clear",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/bike/best/c6921a51-a36f6af9.jpg"
+      },
+      {
+        "image_id": 8400,
+        "file_name": "c6869d32-cf456c0d.jpg",
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "night",
+          "weather": "clear",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/bike/best/c6869d32-cf456c0d.jpg"
+      },
+      {
+        "image_id": 8306,
+        "file_name": "c6580b8a-7a0bd033.jpg",
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "partly cloudy",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/bike/best/c6580b8a-7a0bd033.jpg"
+      },
+      {
+        "image_id": 8224,
+        "file_name": "c620ac7c-f3d4e50c.jpg",
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "night",
+          "weather": "clear",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/bike/best/c620ac7c-f3d4e50c.jpg"
+      },
+      {
+        "image_id": 8188,
+        "file_name": "c60b2910-eb72d5a2.jpg",
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "overcast",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/bike/best/c60b2910-eb72d5a2.jpg"
+      },
+      {
+        "image_id": 8009,
+        "file_name": "c5a84acc-baf6323a.jpg",
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "dawn/dusk",
+          "weather": "clear",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/bike/best/c5a84acc-baf6323a.jpg"
+      },
+      {
+        "image_id": 7916,
+        "file_name": "c573d709-4a0dbd2a.jpg",
+        "tp": 2,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "partly cloudy",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/bike/best/c573d709-4a0dbd2a.jpg"
+      },
+      {
+        "image_id": 7639,
+        "file_name": "c4d1be5c-f868e120.jpg",
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "night",
+          "weather": "clear",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/bike/best/c4d1be5c-f868e120.jpg"
+      },
+      {
+        "image_id": 7458,
+        "file_name": "c45d3e0a-93a52b80.jpg",
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "overcast",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/bike/best/c45d3e0a-93a52b80.jpg"
+      },
+      {
+        "image_id": 7417,
+        "file_name": "c447f74e-64671040.jpg",
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "clear",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/bike/best/c447f74e-64671040.jpg"
+      },
+      {
+        "image_id": 7318,
+        "file_name": "c404818a-ac56c4e1.jpg",
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "partly cloudy",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/bike/best/c404818a-ac56c4e1.jpg"
+      }
+    ],
+    "worst": [
+      {
+        "image_id": 21,
+        "file_name": "b1d0a191-5490450b.jpg",
+        "tp": 0,
+        "fp": 0,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "snowy",
+          "scene": "residential"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/bike/worst/b1d0a191-5490450b.jpg"
+      },
+      {
+        "image_id": 114,
+        "file_name": "b2046bcf-8bc6a044.jpg",
+        "tp": 0,
+        "fp": 4,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "snowy",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/bike/worst/b2046bcf-8bc6a044.jpg"
+      },
+      {
+        "image_id": 153,
+        "file_name": "b21742c2-18d3463a.jpg",
+        "tp": 0,
+        "fp": 1,
+        "fn": 5,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "undefined",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/bike/worst/b21742c2-18d3463a.jpg"
+      },
+      {
+        "image_id": 216,
+        "file_name": "b2490dcb-7469cbe8.jpg",
+        "tp": 0,
+        "fp": 0,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "snowy",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/bike/worst/b2490dcb-7469cbe8.jpg"
+      },
+      {
+        "image_id": 368,
+        "file_name": "b2933acb-1e0c16cc.jpg",
+        "tp": 0,
+        "fp": 0,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "undefined",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/bike/worst/b2933acb-1e0c16cc.jpg"
+      },
+      {
+        "image_id": 454,
+        "file_name": "b2d8704e-66d10551.jpg",
+        "tp": 0,
+        "fp": 0,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "snowy",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/bike/worst/b2d8704e-66d10551.jpg"
+      },
+      {
+        "image_id": 477,
+        "file_name": "b2e54795-698ce97f.jpg",
+        "tp": 0,
+        "fp": 6,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "dawn/dusk",
+          "weather": "snowy",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/bike/worst/b2e54795-698ce97f.jpg"
+      },
+      {
+        "image_id": 492,
+        "file_name": "b2efc911-2ad925b4.jpg",
+        "tp": 0,
+        "fp": 0,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "night",
+          "weather": "clear",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/bike/worst/b2efc911-2ad925b4.jpg"
+      },
+      {
+        "image_id": 496,
+        "file_name": "b2f48fc3-f0ddacf0.jpg",
+        "tp": 0,
+        "fp": 0,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "dawn/dusk",
+          "weather": "snowy",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/bike/worst/b2f48fc3-f0ddacf0.jpg"
+      },
+      {
+        "image_id": 597,
+        "file_name": "b33ea6cb-8ef8b9c4.jpg",
+        "tp": 0,
+        "fp": 4,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "undefined",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/bike/worst/b33ea6cb-8ef8b9c4.jpg"
+      },
+      {
+        "image_id": 598,
+        "file_name": "b33ea6cb-ddf24803.jpg",
+        "tp": 0,
+        "fp": 2,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "clear",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/bike/worst/b33ea6cb-ddf24803.jpg"
+      },
+      {
+        "image_id": 626,
+        "file_name": "b3599e04-6f80b3b7.jpg",
+        "tp": 0,
+        "fp": 0,
+        "fn": 5,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "night",
+          "weather": "clear",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/bike/worst/b3599e04-6f80b3b7.jpg"
+      },
+      {
+        "image_id": 629,
+        "file_name": "b35c1016-5a7c77ee.jpg",
+        "tp": 0,
+        "fp": 1,
+        "fn": 4,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "rainy",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/bike/worst/b35c1016-5a7c77ee.jpg"
+      },
+      {
+        "image_id": 648,
+        "file_name": "b368ee71-e2f04304.jpg",
+        "tp": 0,
+        "fp": 1,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "dawn/dusk",
+          "weather": "clear",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/bike/worst/b368ee71-e2f04304.jpg"
+      },
+      {
+        "image_id": 649,
+        "file_name": "b36a5c73-437be32a.jpg",
+        "tp": 0,
+        "fp": 0,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "snowy",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/bike/worst/b36a5c73-437be32a.jpg"
+      },
+      {
+        "image_id": 843,
+        "file_name": "b3e0345b-69069f01.jpg",
+        "tp": 0,
+        "fp": 0,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "undefined",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/bike/worst/b3e0345b-69069f01.jpg"
+      },
+      {
+        "image_id": 887,
+        "file_name": "b3f7c502-d89499e0.jpg",
+        "tp": 0,
+        "fp": 0,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "night",
+          "weather": "clear",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/bike/worst/b3f7c502-d89499e0.jpg"
+      },
+      {
+        "image_id": 921,
+        "file_name": "b41d35f8-6cf85033.jpg",
+        "tp": 0,
+        "fp": 1,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "clear",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/bike/worst/b41d35f8-6cf85033.jpg"
+      },
+      {
+        "image_id": 952,
+        "file_name": "b42df626-bee4420b.jpg",
+        "tp": 0,
+        "fp": 0,
+        "fn": 2,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "undefined",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/bike/worst/b42df626-bee4420b.jpg"
+      },
+      {
+        "image_id": 959,
+        "file_name": "b4304e43-89ba0daa.jpg",
+        "tp": 0,
+        "fp": 3,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "undefined",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/bike/worst/b4304e43-89ba0daa.jpg"
+      }
+    ]
+  },
+  "train": {
+    "best": [
+      {
+        "image_id": 9803,
+        "file_name": "c9f5283d-5ef0a1b2.jpg",
+        "tp": 0,
+        "fp": 0,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "dawn/dusk",
+          "weather": "overcast",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/train/best/c9f5283d-5ef0a1b2.jpg"
+      },
+      {
+        "image_id": 9802,
+        "file_name": "c9f5283d-36783b15.jpg",
+        "tp": 0,
+        "fp": 0,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "overcast",
+          "scene": "highway"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/train/best/c9f5283d-36783b15.jpg"
+      },
+      {
+        "image_id": 9220,
+        "file_name": "c897cc2b-4104fbc7.jpg",
+        "tp": 0,
+        "fp": 0,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "clear",
+          "scene": "highway"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/train/best/c897cc2b-4104fbc7.jpg"
+      },
+      {
+        "image_id": 8260,
+        "file_name": "c63f6bb5-e23a253e.jpg",
+        "tp": 0,
+        "fp": 0,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "partly cloudy",
+          "scene": "highway"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/train/best/c63f6bb5-e23a253e.jpg"
+      },
+      {
+        "image_id": 8131,
+        "file_name": "c5ea1566-5388419a.jpg",
+        "tp": 0,
+        "fp": 0,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "clear",
+          "scene": "highway"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/train/best/c5ea1566-5388419a.jpg"
+      },
+      {
+        "image_id": 6855,
+        "file_name": "c2e3fe05-fa312f4d.jpg",
+        "tp": 0,
+        "fp": 0,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "night",
+          "weather": "snowy",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/train/best/c2e3fe05-fa312f4d.jpg"
+      },
+      {
+        "image_id": 5542,
+        "file_name": "bfc62f16-845d051b.jpg",
+        "tp": 0,
+        "fp": 0,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "snowy",
+          "scene": "highway"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/train/best/bfc62f16-845d051b.jpg"
+      },
+      {
+        "image_id": 5242,
+        "file_name": "bf0038bc-5446bb48.jpg",
+        "tp": 0,
+        "fp": 0,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "night",
+          "weather": "clear",
+          "scene": "highway"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/train/best/bf0038bc-5446bb48.jpg"
+      },
+      {
+        "image_id": 3373,
+        "file_name": "ba6aa28c-fd3beb1c.jpg",
+        "tp": 0,
+        "fp": 0,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "night",
+          "weather": "clear",
+          "scene": "highway"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/train/best/ba6aa28c-fd3beb1c.jpg"
+      },
+      {
+        "image_id": 1707,
+        "file_name": "b5ecfd7e-fcdaceb0.jpg",
+        "tp": 0,
+        "fp": 0,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "partly cloudy",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/train/best/b5ecfd7e-fcdaceb0.jpg"
+      },
+      {
+        "image_id": 1396,
+        "file_name": "b5450d0c-ccc3fb86.jpg",
+        "tp": 0,
+        "fp": 0,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "night",
+          "weather": "snowy",
+          "scene": "highway"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/train/best/b5450d0c-ccc3fb86.jpg"
+      },
+      {
+        "image_id": 1327,
+        "file_name": "b50ff9e2-ebb775d4.jpg",
+        "tp": 0,
+        "fp": 0,
+        "fn": 2,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "snowy",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/train/best/b50ff9e2-ebb775d4.jpg"
+      },
+      {
+        "image_id": 1006,
+        "file_name": "b4561bec-26a99096.jpg",
+        "tp": 0,
+        "fp": 0,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "night",
+          "weather": "rainy",
+          "scene": "highway"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/train/best/b4561bec-26a99096.jpg"
+      },
+      {
+        "image_id": 220,
+        "file_name": "b24bdca1-e4f0c558.jpg",
+        "tp": 0,
+        "fp": 0,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "night",
+          "weather": "clear",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/train/best/b24bdca1-e4f0c558.jpg"
+      }
+    ],
+    "worst": [
+      {
+        "image_id": 220,
+        "file_name": "b24bdca1-e4f0c558.jpg",
+        "tp": 0,
+        "fp": 0,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "night",
+          "weather": "clear",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/train/worst/b24bdca1-e4f0c558.jpg"
+      },
+      {
+        "image_id": 1006,
+        "file_name": "b4561bec-26a99096.jpg",
+        "tp": 0,
+        "fp": 0,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "night",
+          "weather": "rainy",
+          "scene": "highway"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/train/worst/b4561bec-26a99096.jpg"
+      },
+      {
+        "image_id": 1327,
+        "file_name": "b50ff9e2-ebb775d4.jpg",
+        "tp": 0,
+        "fp": 0,
+        "fn": 2,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "snowy",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/train/worst/b50ff9e2-ebb775d4.jpg"
+      },
+      {
+        "image_id": 1396,
+        "file_name": "b5450d0c-ccc3fb86.jpg",
+        "tp": 0,
+        "fp": 0,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "night",
+          "weather": "snowy",
+          "scene": "highway"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/train/worst/b5450d0c-ccc3fb86.jpg"
+      },
+      {
+        "image_id": 1707,
+        "file_name": "b5ecfd7e-fcdaceb0.jpg",
+        "tp": 0,
+        "fp": 0,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "partly cloudy",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/train/worst/b5ecfd7e-fcdaceb0.jpg"
+      },
+      {
+        "image_id": 3373,
+        "file_name": "ba6aa28c-fd3beb1c.jpg",
+        "tp": 0,
+        "fp": 0,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "night",
+          "weather": "clear",
+          "scene": "highway"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/train/worst/ba6aa28c-fd3beb1c.jpg"
+      },
+      {
+        "image_id": 5242,
+        "file_name": "bf0038bc-5446bb48.jpg",
+        "tp": 0,
+        "fp": 0,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "night",
+          "weather": "clear",
+          "scene": "highway"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/train/worst/bf0038bc-5446bb48.jpg"
+      },
+      {
+        "image_id": 5542,
+        "file_name": "bfc62f16-845d051b.jpg",
+        "tp": 0,
+        "fp": 0,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "snowy",
+          "scene": "highway"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/train/worst/bfc62f16-845d051b.jpg"
+      },
+      {
+        "image_id": 6855,
+        "file_name": "c2e3fe05-fa312f4d.jpg",
+        "tp": 0,
+        "fp": 0,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "night",
+          "weather": "snowy",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/train/worst/c2e3fe05-fa312f4d.jpg"
+      },
+      {
+        "image_id": 8131,
+        "file_name": "c5ea1566-5388419a.jpg",
+        "tp": 0,
+        "fp": 0,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "clear",
+          "scene": "highway"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/train/worst/c5ea1566-5388419a.jpg"
+      },
+      {
+        "image_id": 8260,
+        "file_name": "c63f6bb5-e23a253e.jpg",
+        "tp": 0,
+        "fp": 0,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "partly cloudy",
+          "scene": "highway"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/train/worst/c63f6bb5-e23a253e.jpg"
+      },
+      {
+        "image_id": 9220,
+        "file_name": "c897cc2b-4104fbc7.jpg",
+        "tp": 0,
+        "fp": 0,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "clear",
+          "scene": "highway"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/train/worst/c897cc2b-4104fbc7.jpg"
+      },
+      {
+        "image_id": 9802,
+        "file_name": "c9f5283d-36783b15.jpg",
+        "tp": 0,
+        "fp": 0,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "daytime",
+          "weather": "overcast",
+          "scene": "highway"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/train/worst/c9f5283d-36783b15.jpg"
+      },
+      {
+        "image_id": 9803,
+        "file_name": "c9f5283d-5ef0a1b2.jpg",
+        "tp": 0,
+        "fp": 0,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "attributes": {
+          "timeofday": "dawn/dusk",
+          "weather": "overcast",
+          "scene": "city street"
+        },
+        "rendered_path": "outputs/eval_diagnostics/renders/train/worst/c9f5283d-5ef0a1b2.jpg"
+      }
+    ]
+  }
+}
