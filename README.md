@@ -112,7 +112,7 @@ python3 -m bdd100k_detection.cli train \
 **Evaluation (separate command)**
 ```bash
 python3 -m bdd100k_detection.cli eval \
-  --checkpoint outputs/training/checkpoint_epoch_12.pth \
+  --checkpoint pretrained-models/checkpoint_epoch_12.pth \
   --backbone auto \
   --device cuda \
   --output-dir outputs/eval
