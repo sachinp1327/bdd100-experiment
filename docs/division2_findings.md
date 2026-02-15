@@ -16,7 +16,7 @@ We selected **Faster R‑CNN** as the primary detector for the following reasons
 **Constraint: Pretrained BDD100K Weights Unavailable**
 
 At the time of this work, **public pretrained BDD100K weights were not available** (links were removed or inaccessible).  
-Therefore, we **trained our own model**, initializing from **COCO‑pretrained weights** where possible.
+Therefore, I had to **train my own model**, initializing from **COCO‑pretrained weights** where possible.
 
 ---
 
@@ -26,7 +26,7 @@ Hardware constraint:
 - **GPU: RTX 2000 Ada, 8 GB VRAM**
 
 Given the available time budget, training was limited to:
-- **12 epochs (1x schedule)**  
+- **12 epochs**  
 This was chosen as a practical compromise between quality and total training time.
 
 ---
