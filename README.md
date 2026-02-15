@@ -125,6 +125,12 @@ python3 -m bdd100k_detection.cli eval \
 - Predictions are saved as COCO‑style JSON in:
   `outputs/eval/predictions_0.json` (or epoch‑specific if evaluating during training).
 
+**Pretrained model weights (Drive)**
+Use the following Google Drive folder to download pretrained checkpoints:
+```
+https://drive.google.com/drive/folders/11CaVlRP2VZK1dp7OBTU6AVD9uC03mv_9?usp=sharing
+```
+
 **Training‑time evaluation logs**
 - Each epoch’s metrics are appended to:
   `outputs/training/eval_metrics.jsonl`
